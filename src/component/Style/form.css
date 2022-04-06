@@ -1,0 +1,112 @@
+ .upper{
+     margin-left: 50%;
+     margin-top: 10px;
+ }
+ 
+ 
+ 
+ 
+ .step{
+     font-size: 16px;
+     margin-left: -200px;
+ }
+ .set{
+     margin-top: 50px;
+    margin-left: -200px;
+}
+.set2{
+    
+   margin-left: -200px;
+}
+ .card{
+     height: 30px;
+     width: 100px;
+     margin-left: -180px;
+     margin-top: 40px;
+ }
+  .name{
+       height: 40px;
+       width: 30%; 
+      margin-left: 35%;
+  }
+  .pre{
+      display: flex;
+      /* border: 1px solid black; */
+      width: 30.5%;
+      justify-content: space-between;
+      margin-left: 35%;
+      margin-top: 25px;
+      height: 60px;
+      background-color: rgb(244,244,244);
+      border-radius: 5px;
+      
+  }
+  .month,.month2{
+      font-size: 15px;
+      margin-left: 20px;
+       padding:1px;
+       
+  }
+  .inside{
+      padding-top: -15px;
+      /* border: 1px solid black; */
+     
+      font-size: 15px;
+      width: 60%;
+  }
+  .change{
+    margin: auto;
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+  }
+  .month2{
+    padding-top: 5px;
+    color: darkgray;
+    margin-left: 30px;
+  }
+  .any{
+      font-size: 15px;
+      color: darkgrey;
+      margin-left: 35%;
+      margin-top: 40px;
+  }
+  .by{
+    font-size: 15px;
+    color: darkgrey;
+    margin-left: 35%;
+    margin-top: 45px;
+ 
+  }
+  .check{
+      display: flex;
+      /* border: 1px solid black; */
+      width: 8%;
+      justify-content: space-between;
+      height: 40px;
+      margin-top: 20px;
+      margin-left: 35%;
+  }
+   .checkbox{
+       height: 45px;
+       width: 25px;
+   }
+   .agree{
+       color: darkgrey;
+       margin-top: 13px;
+       font-size: 18px;
+   }
+   .start{
+       border: 1px solid black;
+       width: 38%;
+       margin-left: 35%;
+       text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:rgb(229,9,20);
+    color: white;
+   }
+    
+  
+  
+ 
