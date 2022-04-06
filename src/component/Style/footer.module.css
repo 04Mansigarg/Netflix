@@ -1,10 +1,10 @@
-.call{
+.footercall{
     color: rgb(117,117,125);
     margin-left: 40px;
     margin-top: 15px;
   }
 
-  .Faq{
+  .footerFaq{
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -12,26 +12,26 @@
     color: rgb(117,117,125);
   }
 
-  .Faq>p{
+  .footerFaq>p{
     font-size: 15px;
     margin-left: 5px;
     margin-top: 20px;
   }
 
-  .cook{
+  .footercook{
     display: flex;
     justify-content: space-between;
     width: 30%;
     margin-left: 40px;
     color: rgb(117,117,125);
   }
-  .cook>p{
+  .footercook>p{
     font-size: 15px;
     margin-left: 5px;
     margin-top: 40px;
   }
   
-.eng{
+.footereng{
     border: 1px solid grey;
     background-color: white;
     height: 40px;
@@ -40,15 +40,15 @@
     margin-left: 30px;
     display: flex;
   }
-  .globe{
+  .footerglobe{
     height: 90%;
     width: 35%;
   }
-  .eng>h4{
+  .footereng>h4{
     color: rgb(117,117,125);
     margin-top: 7px;
   }
-  .last{
+  .footerlast{
     background-color:rgb(243,243,243);
     height: 200px;
     margin-top: 120px;
