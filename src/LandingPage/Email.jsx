@@ -3,8 +3,10 @@ import styles from "./Email.module.css"
 import LanguageIcon from '@mui/icons-material/Language';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
+import { useNavigate } from 'react-router-dom';
 
 export const Email = () => {
+    const navigate = useNavigate()
     return (
         <div className={styles.main}>
             <div className={styles.emailDiv}>
@@ -41,7 +43,7 @@ export const Email = () => {
                             disableUnderline: true, // <== added this
                         }} />
                     </Box>
-                    <button className={styles.getStarted}>Get Started {'>'}</button>
+                    <button onClick={() => navigate("/login")} className={styles.getStarted}>Get Started {'>'}</button>
                 </div>
 
 
