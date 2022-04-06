@@ -1,0 +1,56 @@
+.call{
+    color: rgb(117,117,125);
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+
+  .Faq{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 40px;
+    color: rgb(117,117,125);
+  }
+
+  .Faq>p{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+
+  .cook{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 40px;
+    color: rgb(117,117,125);
+  }
+  .cook>p{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
+  
+.eng{
+    border: 1px solid grey;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+  }
+  .globe{
+    height: 90%;
+    width: 35%;
+  }
+  .eng>h4{
+    color: rgb(117,117,125);
+    margin-top: 7px;
+  }
+  .last{
+    background-color:rgb(243,243,243);
+    height: 200px;
+    margin-top: 120px;
+    
+  }
