@@ -1,56 +1,56 @@
-.box2{
+.paymentbox2{
   
     margin-left: 45%;
     
   }
-  .image2{
+  .paymentimage2{
     height: 7%;
     width: 7%;
     margin-top: 40px;
     margin-left: 15px;
    
   }
-   h1{
+   .paymentbox2>h1{
      margin-left: -80px;
      margin-bottom: -20px;
    }
-   h5{
+   .paymentbox2>h5{
     margin-left: -10px;
     margin-bottom: -20px;
     margin-top: 60px;
    }
-   p{
+   .paymentbox2>p{
      margin-bottom: -25px;
      font-size: 25px;
      margin-left: -20px;
    }
-   .can{
+   .paymentcan{
      margin-left: -55px;
    }
-   .change{
+   .paymentchange{
      margin-left: -40px;
    }
-   .any{
+   .paymentany{
      margin-left: -3px;
    }
-   h3{
+   .paymentbox2>h3{
      color:rgb(51,51,51);
      margin-left: -15px;
      margin-bottom: -18px;
      
    }
-   .mind{
+   .paymentmind{
      margin-left: 35px;
    }
-   .box3{
+   .paymentbox3{
      border: 1px solid black;
    }
-   .end{
+   .paymentend{
    margin-left: 55%;
    margin-top: 32px;
    display: flex;
    }
-   .pay1,.pay2{
+   .paymentpay1,.paymentpay2{
      border: 1px solid grey;
      height: 70px;
      width: 44%;
@@ -60,34 +60,34 @@
      display: flex;
      justify-content: space-between;
    }
-   .big{
+   .paymentbig{
    /* overflow-y: scroll; */
    height: 700px;
    }
-   .image3{
+   .paymentimage3{
      height: 25px;
      width: 35px;
      margin-top: 15px;
    }
-   .enr{
+   .paymentenr{
      font-size: 16px;
    }
-   .credit{
+   .paymentcredit{
      color:light black;
      margin-left: 15px;
    }
-   .image4{
+   .paymentimage4{
      height: 60%;
      width: 50%;
      margin-top: 10px;
      
    }
-   .great{
+   .paymentgreat{
      height: 70%;
      width: 5%;
      margin-top: 10px;
    }
-   .pay2{
+   .paymentpay2{
      margin-top: 5px;
  }
  

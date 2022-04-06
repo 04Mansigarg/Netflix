@@ -1,4 +1,4 @@
-.box1{
+.headerbox1{
     border: 1px solid grey;
     height: 90px;
     display:flex;
@@ -8,14 +8,14 @@
 
    }
 
-   .image{
+   .headerimage{
     height: 80%;
     margin-left: 20px;
     
     }
 
     
- .sign{
+ .headersign{
     padding-top: 10px;
     margin-right: 20px;
   }
