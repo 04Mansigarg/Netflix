@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "../css/SignUp3.module.css";
 import { FooterComp } from "./FooterComp";
 
 const SignUp3 = () => {
+  const navigate = useNavigate()
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -23,7 +25,7 @@ const SignUp3 = () => {
           <li>Everything on Netflix for one low price.</li>
           <li>No ads and no extra fees. Ever.</li>
         </ul>
-        <button>Next</button>
+        <button onClick={() => navigate("/payment")}>Next</button>
       </div>
       <FooterComp />
     </div>

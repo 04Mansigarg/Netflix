@@ -1,5 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import PopUp from '../components/PopUp'
 import { get_horror_tvshows } from '../Redux-Store/Home/Action'
 import styles from "./HomePage.module.css"
 
@@ -18,9 +19,7 @@ export const HorrorTvShows = () => {
             <h3 className={styles.mainHeading}>Horror</h3>
             <div className={styles.rowImages}>
                 {horrorShows.map(items => {
-                    return <div className={styles.rowImage} key={items.id}>
-                        <img src={items.thumbnail} alt="" />
-                    </div>
+                    return <PopUp key={items.id} items={items} />
                 })}
             </div>
         </div>

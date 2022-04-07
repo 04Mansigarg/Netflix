@@ -1,5 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import PopUp from '../components/PopUp'
 import { get_awardwinning } from '../Redux-Store/Home/Action'
 import styles from "./HomePage.module.css"
 
@@ -19,9 +20,7 @@ export const AwardWinning = () => {
             <h3 className={styles.mainHeading}>Award Winning</h3>
             <div className={styles.rowImages}>
                 {awardwinning.map(items => {
-                    return <div className={styles.rowImage} key={items.id}>
-                        <img src={items.thumbnail} alt="" />
-                    </div>
+                    return <PopUp key={items.id} items={items} />
                 })}
             </div>
         </div>

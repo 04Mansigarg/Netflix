@@ -1,10 +1,15 @@
 
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import PopUp from '../components/PopUp'
 import { get_indian_tvshows } from '../Redux-Store/Home/Action'
 import styles from "./HomePage.module.css"
 
 export const IndianTvShows = () => {
+
+
+
+
 
     const indianShows = useSelector((state => state.indian_tv))
     const dispatch = useDispatch()
@@ -19,11 +24,10 @@ export const IndianTvShows = () => {
             <h3 className={styles.mainHeading}>Indian Tv Shows</h3>
             <div className={styles.rowImages}>
                 {indianShows.map(items => {
-                    return <div className={styles.rowImage} key={items.id}>
-                        <img src={items.thumbnail} alt="" />
-                    </div>
+                    return <PopUp key={items.id} items={items} />
                 })}
             </div>
         </div>
     )
 }
+
