@@ -22,7 +22,7 @@ export const Email = () => {
                                 <option>Hindi</option>
                             </select>
                         </span>
-                        <button className={styles.signinButton}>Sign In</button>
+                        <button onClick={() => navigate("/login")} className={styles.signinButton}>Sign In</button>
                     </div>
                 </div>
                 <div className={styles.emailHeading}>
@@ -43,7 +43,7 @@ export const Email = () => {
                             disableUnderline: true, // <== added this
                         }} />
                     </Box>
-                    <button onClick={() => navigate("/login")} className={styles.getStarted}>Get Started {'>'}</button>
+                    <button onClick={() => navigate("/signup1")} className={styles.getStarted}>Get Started {'>'}</button>
                 </div>
 
 
