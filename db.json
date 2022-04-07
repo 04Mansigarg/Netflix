@@ -802,5 +802,150 @@
       "certificate": "A",
       "duration": "1h 46m"
     }
+  ],
+  "banners-tv": [
+    {
+      "id": 1,
+      "title": "Little Things",
+      "category": "Indian",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQUAolj0aWIPvIeX_b3hWZgv02JOY81yERK3NHg6QukX90NzDXbcygmZr4zIuAiP96SKYj1mRg3CgIjRP_6TaEoUu1V8.webp?r=749",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWeNM_pjzgOMs-v3bIM-BPEaEpNPcZf8wplU0KiAJTyxu4pbT5oJatLztRwjoN29vKTDnk0Ushvnxb8fEHxMtA_V3BB-BnO2WYPvRQZBSImK0bcAMXL12rf81zNfqGnpOMUm06KTJHNN2xHZ_dLnGjwXvOSlcjGlseNaq-rUsfM7nw.webp?r=5f9",
+      "description": "A cohabiting couple in their 20s navigate the ups and downs of work, modern-day relationships and finding themselves in contemporary Mumbai.",
+      "match": 94,
+      "certificate": "U/A 16+",
+      "seasons": 4,
+      "year": 2021,
+      "cast": ["Dhruv Sehgal", "Mithila Palkar"],
+      "genres": [
+        "Romantic TV Dramas",
+        "Romantic TV Comedies",
+        "Hindi-Language TV Shows"
+      ],
+      "this-show-is": ["Intimate", "Romantic"]
+    },
+    {
+      "id": 2,
+      "title": "Mismatched",
+      "category": "Romance",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeFhXOpAI5UaPKrN4Gq63piZVHm-H2d99juYupnVSdn1j5DY7jSGos2-x2tS-TQh0eMzys6bHFF9Zicop3e09G_6u7Bp.webp?r=ab4",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbshfm6dKfz1o_IaEKA65jBovoo74LuNotYkFKn6zS4wg6kMmZ4OTwPrNVmCIvP1VxYytm2h1cNBKnjCI3mTcIvXrHj9INqPvdGZ1m7wSclNc1nv0bHe-lyAMPgTqeiAYtyjILAMminDioThOooo6uP6hF2n-T1soxmjpKnN8DrL8g.webp?r=31b",
+      "description": "She wants a future. He wants a future wife. This next-gen love story is glitchy — but it’s not game over yet.",
+      "match": 89,
+      "certificate": "A",
+      "seasons": 1,
+      "year": 2020,
+      "cast": ["Prajakta Koli", "Rohit Saraf", "Vihaan Samat", "more"],
+      "genres": [
+        "Romantic TV Dramas",
+        "Romantic TV Comedies",
+        "Hindi-Language TV Shows"
+      ],
+      "this-show-is": ["Quirky", "Heartfelt", "Romantic"]
+    },
+    {
+      "id": 3,
+      "title": "Teen Wolf",
+      "category": "Horror",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWhddUyblR6HksEoeyACVimCNIQCiswPm948NvkBG-yLhjuSFxTkxLQZ23CBtlhOFb3ncT5iL4G4fk3m0YO8i9zNonQz.webp?r=a8c",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABYE68QwGpVvR4Uy-zwLrzOHDqzRoTuJiEAxkS2gCi9sd9SbePaA84Pe_CaiINccfUs8or0xqq2WT1iZogERKsplP5oxHbHmkok1T.webp?r=72b",
+      "description": "An animal bite turns a high schooler into a werewolf whose newfound supernatural abilities make him a star athlete – and majorly complicate his life.",
+      "match": 91,
+      "certificate": "A",
+      "seasons": 6,
+      "year": 2016,
+      "cast": ["Tyler Pose", "Crystal Reed", "Dylan O'Brien", "more"],
+      "genres": ["Teen TV Shows", "TV Dramas", "TV Horror"],
+      "this-show-is": ["Suspenseful", "Exciting"]
+    },
+    {
+      "id": 4,
+      "title": "Crime Stories : India Detectives",
+      "category": "Docuseries",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABY41kmNBsBzqWHmd_gx3-Cxq0WRVQ48pqUmhaxuVmNJDkZy0PsivSNk1-yTqF86qY_bDGzq7vvaNsq-AHWaEjHCaEUju.webp?r=b4c",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABR7RhIKZWpwECYycyYXf1vcEH_sujG841ERgMUQw5yv8IUFnj-WxKvharqCQ4IWPnPBJmSUSDHSnahozZVS5yVukJlD4N24JeZHXsltxMPSPUWumR0m72BVeYwzsPmOfsSk_pkOfbqlE9EXoIuA1yscNx9nMn8VhsIBbrYpYrlUkTw.webp?r=979",
+      "description": "Cameras following Bengaluru police on the job offer a rare glimpse into the complex and challenging inner workings of four major crime investigations.",
+      "match": 82,
+      "certificate": "U/A 16+",
+      "seasons": 1,
+      "year": 2021,
+      "cast": ["Police", "more"],
+      "genres": ["Social & Cultural Docs", "Docuseries", "Crime TV Shows"],
+      "this-show-is": ["Gritty", "Dark"]
+    }
+  ],
+  "banners-mo": [
+    {
+      "id": 1,
+      "title": "Panipat : The Great Betrayal",
+      "category": "Bollywood",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ25sbcXndX5Mn93hJ2mnQS81972TBoTVo1xJhMCs7SPh9H2VKtEDIWEOH9DfNJ1TuoRNfFxAaAKrndOJEWna_oqFTYc.webp?r=1d4",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABaiBEtZppLB3RDCapQ314ODZ0gNEus-9ja_eYTxO5NWC0j07gMZbvn45rStaK2fKe7DrSq9AP1cNAnQrfnSoQOPFOm1Of_dS3jx-.webp?r=644",
+      "description": "In 18th-century India, a Maratha commander leads his army in preparation for a fierce battle against Afghan invaders in this film based on real events.",
+      "match": 93,
+      "certificate": "U/A 16+",
+      "duration": "2h 50m",
+      "year": 2019,
+      "cast": ["Arjun Kapoor", "Sanjay Dutt", "Kriti Sanon", "more"],
+      "genres": [
+        "Military Movies",
+        "Movies Based on Real Life",
+        "Hindi-Language Movies"
+      ],
+      "this-movie-is": ["Emotional", "Exciting", "Romantic"]
+    },
+    {
+      "id": 2,
+      "title": "The White Tiger",
+      "category": "Hollywood",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABRpa4Qz2muwdbGmy6MXlzsWKCM9GK_0saZek0hamqKSx0ciq6ap7R2byCqBf0I5Fa9HxttCoyqWe2g-Sn8sW3T8oyjQB.webp?r=8d6",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABdLBEuFfSj9sYVX6QPR0xKxvP4swpVPzA957hKz5wgxuR7NEHMpHXAhFiY7AmiyUGPbIKewBWNG20UIfUHG6HTiepOAwZCl-5Z579nSuQvkSSzVl6Bk4DrDbVzsEFQDCsd1UqGItUH6oUOMhs9xvlNjM0sZhjYIsCQjHiQpY69ZbHg.webp?r=43a",
+      "description": "This 2021 drama featuring Adarsh Gourav and directed by Ramin Bahrani is based on Aravind Adiga's 2008 novel.",
+      "match": 95,
+      "certificate": "U/A 16+",
+      "duration": "2h 5m",
+      "year": 2021,
+      "cast": [
+        "Adarsh Gourav",
+        "Rajkumar Rao",
+        "Priyanka Chopra Jonas",
+        "more"
+      ],
+      "genres": ["Social Issues Dramas", "US Movies", "Movies Based On Books"],
+      "this-movie-is": ["Offbeat", "Provocative", "Gritty"]
+    },
+    {
+      "id": 3,
+      "title": "Spirited Away",
+      "category": "Anime",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQQyXQqbY5hhef501VKoW1kcZ9_6ydrOVY1G1IvOjIdB6gxEBDm1iyDz7k0N9noseLq5tAL6Be-97wVmAHx6VtLZUUwt.webp?r=9f4",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWl3cAxSDSTAg8Dx9l2PTcnk1WLYhJ-aiJKDa6pYUCzraoau_S7HP3zjMbIE-JlWGpwgtLj1XSCEGYDhN1UBSR8CllXvRC4G9BMA.webp?r=35b",
+      "description": "Chihiro wanders into a magical world where a witch rules -- and those who disobey her are turned into animals.",
+      "match": 89,
+      "certificate": "U/A 13+",
+      "duration": "2h 5m",
+      "year": 2001,
+      "cast": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki", "more"],
+      "genres": ["Japanese", "Family Movies", "Anime Movies"],
+      "this-movie-is": ["Heartfelt", "Feel-Good"]
+    },
+    {
+      "id": 4,
+      "title": "Article 15",
+      "category": "Award Winning",
+      "banner-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfOdTTEfpky0vkd5P2CJCYjrEVeb9_6CC8eyBOLMRDuoTRebbOXbK-oCoVZzV-zz_NoSKB5kOv1g0qKpeJPC0Gl7bqTA.webp?r=6cd",
+      "name-pic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbX4GxcOHRl0khH9DCGTPpM7tTrI-QGqoSzh5921O-EnhO1PdCPG4W9yJSJIrc1u19FtPCPXJUpZvMKmQMcdkxYzKLVVjyPtUCuA.webp?r=12a",
+      "description": "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder.",
+      "match": 96,
+      "certificate": "U/A 16+",
+      "duration": "2h 5m",
+      "year": 2019,
+      "cast": ["Ayushmann Khurrana", "Nassar", "Manoj Pahwa", "more"],
+      "genres": [
+        "Social Issues Dramas",
+        "Hindi-Language Movies",
+        "Crime Movies"
+      ],
+      "this-movie-is": ["Gritty", "Dark"]
+    }
   ]
 }

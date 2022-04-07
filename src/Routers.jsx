@@ -12,7 +12,8 @@ import { HomePage } from './HomePage/HomePage'
 import { Banner } from './HomePage/Banner'
 import { TvShows } from './TvShows/TvShows'
 import { Movies } from './Movies/Movies'
-
+import Player from "./components/Player";
+import PopUp from "./components/PopUp";
 export const Routers = () => {
     return (
         <div>
@@ -28,6 +29,8 @@ export const Routers = () => {
                 <Route path="tvshows" element={<TvShows />} />
                 <Route path="movies" element={<Movies />} />
                 <Route path="banner" element={<Banner />} />
+                <Route path="player" element={<Player />} />
+                <Route path="popup" element={<PopUp />} />
             </Routes>
         </div>
     )
