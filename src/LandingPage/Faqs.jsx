@@ -8,8 +8,10 @@ import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import AddIcon from '@mui/icons-material/Add';
 import CloseIcon from '@mui/icons-material/Close';
+import { useNavigate } from 'react-router-dom';
 export function Faqs() {
     const [expanded, setExpanded] = React.useState(false);
+    const navigate = useNavigate()
 
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
@@ -173,7 +175,7 @@ export function Faqs() {
                         disableUnderline: true, // <== added this
                     }} />
                 </Box>
-                <button className={styles.getStarted}>Get Started {'>'}</button>
+                <button onClick={() => navigate("/signup1")} className={styles.getStarted}>Get Started {'>'}</button>
             </div>
         </div>
     );

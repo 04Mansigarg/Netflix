@@ -1,0 +1,32 @@
+.home{
+    background-color: black;
+}
+.tvShows{
+  background-color: black;
+}
+.mainRow {
+    color: #fff;
+    margin-left: 5em;
+  }
+  
+  .rowImages {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    column-gap: 0.5em;
+  }
+  
+  .rowImages::-webkit-scrollbar {
+    display: none;
+  }
+  .rowImage {
+    object-fit: contain;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 450ms;
+    border:1px solid black;
+    border-radius:5px;
+  }
+  .mainHeading{
+    font-size: 22px;
+  }
