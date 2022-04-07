@@ -8,8 +8,11 @@ import SignUp1 from "./components/SignUp1"
 import SignUp2 from "./components/SignUp2"
 import SignUp3 from "./components/SignUp3"
 import Login from "./components/Login"
-import Navbar from './component/Navbar'
-// import Sidebar from './component/side'
+import { HomePage } from './HomePage/HomePage'
+import { Banner } from './HomePage/Banner'
+import { TvShows } from './TvShows/TvShows'
+import { Movies } from './Movies/Movies'
+import Player from "./components/Player";
 export const Routers = () => {
     return (
         <div>
@@ -19,10 +22,13 @@ export const Routers = () => {
                 <Route path="signup2" element={<SignUp2 />} />
                 <Route path="signup3" element={<SignUp3 />} />
                 <Route path="login" element={<Login />} />
-                <Route exact path='/payment' element={<Payment />} />
-                <Route exact path='/paymentform' element={<Paymentform />} />
-                <Route path='navbar' element={<Navbar />} />
-                {/* <Route path='sidebar' element={<Sidebar />} /> */}
+                <Route exact path='payment' element={<Payment />} />
+                <Route exact path='paymentform' element={<Paymentform />} />
+                <Route path="homepage" element={<HomePage />} />
+                <Route path="tvshows" element={<TvShows />} />
+                <Route path="movies" element={<Movies />} />
+                <Route path="banner" element={<Banner />} />
+                <Route path="player" element={<Player />} />
             </Routes>
         </div>
     )
