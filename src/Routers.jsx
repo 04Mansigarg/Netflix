@@ -8,7 +8,8 @@ import SignUp1 from "./components/SignUp1"
 import SignUp2 from "./components/SignUp2"
 import SignUp3 from "./components/SignUp3"
 import Login from "./components/Login"
-
+import Navbar from './component/Navbar'
+// import Sidebar from './component/side'
 export const Routers = () => {
     return (
         <div>
@@ -20,6 +21,8 @@ export const Routers = () => {
                 <Route path="login" element={<Login />} />
                 <Route exact path='/payment' element={<Payment />} />
                 <Route exact path='/paymentform' element={<Paymentform />} />
+                <Route path='navbar' element={<Navbar />} />
+                {/* <Route path='sidebar' element={<Sidebar />} /> */}
             </Routes>
         </div>
     )

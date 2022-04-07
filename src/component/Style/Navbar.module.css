@@ -1,0 +1,61 @@
+.nav{
+border: 1px solid black;
+height: 70px;
+display: flex;
+background-color: black;
+}
+
+.netlogo{
+    /* border: 1px solid white; */
+    width: 22%;
+}
+
+
+.netimage{
+    height: 80%;
+    /* margin-left: 40px; */
+    margin-top: 6px;
+    
+    }
+    .home{
+        display: flex;
+        width: 30%;
+        justify-content: space-between;
+        margin-left: 50px;
+        text-align: center;
+     color: white;
+     /* border: 1px solid white; */
+     width: 55%;
+
+
+    }
+    .corner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid white; */
+        width: 45%;
+        margin-left: 28%;
+        height: 70%;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        /* border: 1px solid white; */
+        margin-right: 20px;
+
+    }
+
+    .largelogo{
+        margin-left: -30px;
+        /* margin */
+        padding: 30px;
+
+    }
+    
+    .search{
+        height: 40%;
+        width: 10%;
+        padding-top: 30px;
+        
+
+    }
