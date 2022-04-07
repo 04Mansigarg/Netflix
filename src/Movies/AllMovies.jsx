@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { get_movies } from '../Redux-Store/Home/Action'
 import styles from "../HomePage/HomePage.module.css"
+import PopUp from '../components/PopUp'
 
 export const AllMovies = () => {
     const movies = useSelector((state => state.movies))
@@ -18,9 +19,7 @@ export const AllMovies = () => {
             <h3 className={styles.mainHeading}>Movies</h3>
             <div className={styles.rowImages}>
                 {movies.map(items => {
-                    return <div className={styles.rowImage} key={items.id}>
-                        <img src={items.thumbnail} alt="" />
-                    </div>
+                    return <PopUp key={items.id} items={items} />
                 })}
             </div>
         </div>

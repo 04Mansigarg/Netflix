@@ -28,10 +28,15 @@
 .row2 * {
   margin-right: 10px;
   padding: 2px;
+  font-size: 20px;
 }
 .row3 * {
   margin-right: 7px;
   padding: 2px;
+  font-size: 20px;
+}
+.match{
+  
 }
 
 .cert {
@@ -42,14 +47,18 @@
   font-size: 1.7em;
   cursor: pointer;
 }
-
-.popup_container {
-  width: 400px;
-}
-
 .popup_container img {
-  width: 100%;
+  width: 450px;
+
   display: block;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.rowImage {
+  object-fit: contain;
+  width: 100%;
+  cursor: pointer;
+  transition: transform 450ms;
+  border:1px solid black;
+  border-radius:5px;
 }

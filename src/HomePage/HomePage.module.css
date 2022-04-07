@@ -19,14 +19,7 @@
   .rowImages::-webkit-scrollbar {
     display: none;
   }
-  .rowImage {
-    object-fit: contain;
-    width: 100%;
-    cursor: pointer;
-    transition: transform 450ms;
-    border:1px solid black;
-    border-radius:5px;
-  }
+ 
   .mainHeading{
     font-size: 22px;
   }
