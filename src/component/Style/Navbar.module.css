@@ -1,10 +1,15 @@
 .nav {
   height: 50px;
-  background-color: antiquewhite;
+  width: 100%;
+  background-color: black;
+  color: white;
   margin-top: 0;
   padding-top: 10px;
+  padding-bottom: 5px;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 
 .span1 ul {
@@ -28,9 +33,10 @@
   width: 300px;
   height: 100px;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.9;
   color: white;
-  position: absolute;
+  position: fixed;
+  top: 60px;
   right: 20px;
   display: flex;
   padding: 10px;
@@ -84,12 +90,15 @@
 }
 
 .avatarDD {
-  width: 200px;
-  height: 500px;
-  background-color: aqua;
-  position: absolute;
+  background-color: black;
+  opacity: 0.9;
+  color: white;
+  position: fixed;
+  top: 60px;
   right: 50px;
   cursor: pointer;
+  width: 200px;
+  border-radius: 3px;
 }
 
 .names span {
