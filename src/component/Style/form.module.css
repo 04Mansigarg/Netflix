@@ -1,111 +1,76 @@
- .formpaymentupper{
-     margin-left: 50%;
-     margin-top: 10px;
- }
- 
- 
- 
- .formpaymentstep{
-     font-size: 16px;
-     margin-left: -200px;
- }
- .formpaymentset{
-     margin-top: 50px;
-    margin-left: -200px;
+.middlebox form {
+  display: flex;
+  flex-direction: column;
 }
-.formpaymentset2{
-    
-   margin-left: -200px;
+.middlebox {
+  width: 400px;
+  margin-left: auto;
+
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: left;
 }
- .formpaymentcard{
-     height: 30px;
-     width: 100px;
-     margin-left: -222px;
-     margin-top: 40px;
- }
-  .formpaymentname{
-       height: 40px;
-       width: 30%; 
-      margin-left: 35%;
-  }
-  .formpaymentpre{
-      display: flex;
-      /* border: 1px solid black; */
-      width: 30.5%;
-      justify-content: space-between;
-      margin-left: 35%;
-      margin-top: 25px;
-      height: 60px;
-      background-color: rgb(244,244,244);
-      border-radius: 5px;
-      
-  }
-  .formpaymentmonth,.formpaymentmonth2{
-      font-size: 15px;
-      margin-left: 20px;
-       padding:1px;
-       
-  }
-  .formpaymentinside{
-      padding-top: -15px;
-      /* border: 1px solid black; */
-     
-      font-size: 15px;
-      width: 60%;
-  }
-  .formpaymentchange{
-    margin: auto;
-    font-size: 18px;
-    color: blue;
-    font-weight: bold;
-  }
-  .formpaymentmonth2{
-    margin-top: -17px;
-    color: darkgray;
-    margin-left: 30px;
-  }
-  .formpaymentany{
-      font-size: 15px;
-      color: darkgrey;
-      margin-left: 35%;
-      margin-top: 40px;
-  }
-  .formpaymentby{
-    font-size: 15px;
-    color: darkgrey;
-    margin-left: 35%;
-    margin-top: 45px;
- 
-  }
-  .formpaymentcheck{
-      display: flex;
-      /* border: 1px solid black; */
-      width: 8%;
-      justify-content: space-between;
-      height: 40px;
-      margin-top: 20px;
-      margin-left: 35%;
-  }
-   .formpaymentcheckbox{
-       height: 45px;
-       width: 25px;
-   }
-   .formpaymentagree{
-       color: darkgrey;
-       margin-top: 13px;
-       font-size: 18px;
-   }
-   .formpaymentstart{
-       border: 1px solid black;
-       width: 33%;
-       margin-left: 35%;
-       text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-color:rgb(229,9,20);
-    color: white;
-   }
-    
-  
-  
- 
+
+.middlebox form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  font-size: 1.2em;
+  height: 40px;
+}
+
+.plandetails {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.plandetails p {
+  margin: 2px;
+}
+.changebtn {
+  margin-top: 10px;
+}
+.changebtn a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0071eb;
+}
+
+.price {
+  font-weight: 600;
+}
+
+.disclaimer {
+  font-size: small;
+}
+.disclaimer a {
+  text-decoration: none;
+  color: #0071eb;
+}
+
+.membtn {
+  width: 100%;
+  height: 60px;
+
+  border-radius: 5px;
+  padding: 10px;
+  background-color: red;
+  border: 0;
+  color: white;
+  font-size: 1.3em;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: left;
+}
+
+.checkbox input {
+  margin-right: 5px;
+  width: 25px;
+}

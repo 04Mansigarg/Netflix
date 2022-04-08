@@ -1,40 +1,139 @@
- 
-import React from 'react'
-import styles from "../component/Style/Navbar.module.css"
-
-// import Header from "./components/Header";
-
-// import Header from './header'
-// import {Sidebar} from './Side'
+import React from "react";
+import styles from "../component/Style/Navbar.module.css";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsIcon from "@mui/icons-material/Notifications";
+import EditIcon from "@mui/icons-material/Edit";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 
 const Navbar = () => {
+  const [showNotifDD, setShowNotifDD] = React.useState(false);
+  const [showAvatarDD, setShowAvatarDD] = React.useState(false);
+
+  const NotifDD = () => {
+    return (
+      <div className={styles.notifDD}>
+        <img
+          src="https://assets.nflxext.com/us/email/gem/comingsoon/csInapp_112x63.png"
+          alt=""
+        />
+        <span>
+          <p>Netflix Lookahead</p>
+          <p>Explore what's coming soon.</p>
+          <p className={styles.daysAgo}>2 days ago</p>
+        </span>
+      </div>
+    );
+  };
+
+  const AvatarDD = () => {
+    return (
+      <div className={styles.avatarDD} onMouseEnter={() => console.log("left")}>
+        <div>
+          <span>
+            <img
+              src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbme8JMz4rEKFJhtzpOKWFJ_6qX-0y5wwWyYvBhWS0VKFLa289dZ5zvRBggmFVWVPL2AAYE8xevD4jjLZjWumNo.png?r=a41"
+              alt=""
+              className={styles.icons}
+            />
+          </span>
+          <span className={styles.names}> Ram</span>
+        </div>
+        <div>
+          <span>
+            <img
+              src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABYnnca7HCf0z4YHtIK5R8MIGCeMyodAsxBYSBmMkYHqjSw46VWWyNQirfwxT-CkbxPkp-G84Wu-iOMwGG-r9QAs.png?r=f71"
+              alt=""
+              className={styles.icons}
+            />
+          </span>
+          <span className={styles.names}> Shyam</span>
+        </div>
+        <div>
+          <span>
+            <img
+              src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABXrmj4H9RUyDiO28L-KJxDGc9oDijd4jnl5RyCkiWMPB6xFxiVdRiKdOcNjG8kn4A3idJRTGAzuBuQ__c6yl1m0.png?r=fcc"
+              alt=""
+              className={styles.icons}
+            />
+          </span>
+          <span className={styles.names}> Tukaram</span>
+        </div>
+        <div>
+          <span>
+            <img
+              src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABSeeteIa0VRNjiIWgkaD5K6WolibL612PYn_dUdqFSmJjx6VfdOVh-n6WGQ4Gu3d_PXJXcyDq18qae17Q1FZOLg.png?r=5cf"
+              alt=""
+              className={styles.icons}
+            />
+          </span>
+          <span className={styles.names}> Kids</span>
+        </div>
+        <div>
+          <span>
+            <EditIcon large className={styles.icons} />
+          </span>
+          <span className={styles.names}>Manage Profiles</span>
+        </div>
+        <hr />
+        <div>
+          <span>
+            <AccountCircleIcon className={styles.icons} />
+          </span>
+          <span className={styles.names}>Account</span>
+        </div>
+        <div>
+          <span>
+            <HelpOutlineIcon className={styles.icons} />
+          </span>
+          <span className={styles.names}>Help Centre</span>
+        </div>
+        <hr />
+        <div className={styles.signout}>Sign out of Netflix</div>
+      </div>
+    );
+  };
   return (
     <>
-    <div className={styles.nav}>
-        <div className={styles.netlogo}>
-            <img className={styles.netimage} src="https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png" width="110%" alt="" />
-        </div>
-        <div className={styles.home} >
-            <h4>Home</h4>
-            <h4>Tv Shows</h4>
-            <h4>Movies</h4>
-            <h4>News & Popular </h4>
-            <h4>My List</h4>
-        </div>
-        <div className={styles.corner}>
-        <i class="large material-icons" id=''>search</i>
-       
-    <div> <input type="text"  /></div>
-        <p>Kids</p>
-        
-        <i class="large material-icons">notifications</i>
-        <i class="large material-icons">menu</i>
-        {/* <Sidebar /> */}
-        {/* <Header /> */}
-        </div>
-    </div>
+      <div className={styles.nav}>
+        <span className={styles.span1}>
+          <ul>
+            <li>
+              <img src="/logo.png" alt="" className={styles.logoimg} />
+            </li>
+            <li className={styles.menuItems}>Home</li>
+            <li className={styles.menuItems}>TV Shows</li>
+            <li className={styles.menuItems}>Movies</li>
+            <li className={styles.menuItems}>New & Popular</li>
+            <li className={styles.menuItems}>My List</li>
+          </ul>
+        </span>
+        <span className={styles.span2}>
+          <ul>
+            <li>
+              <SearchIcon />
+            </li>
+            <li>
+              <input type="text" placeholder="Titles, people, genres" />
+            </li>
+            <li>
+              <NotificationsIcon onClick={() => setShowNotifDD(!showNotifDD)} />
+            </li>
+            <li>
+              <img
+                src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABUCZYfPbupvQjzSa3egePk8TFNDy2A_w15DEAq50IqW8MYmOtmbWwN4Txem7mgNYEMPJ1BY6uasiIJQ8JeFO3EU.png?r=b97"
+                alt=""
+                className={styles.avatarimg}
+                onClick={() => setShowAvatarDD(!showAvatarDD)}
+              />
+            </li>
+          </ul>
+        </span>
+      </div>
+      {showNotifDD && <NotifDD />}
+      {showAvatarDD && <AvatarDD />}
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

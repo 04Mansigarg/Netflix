@@ -1,97 +1,25 @@
-.paymentbox2{
-  
-    margin-left: 45%;
-    
-  }
-  .paymentimage2{
-    height: 7%;
-    width: 7%;
-    margin-top: 40px;
-    margin-left: 15px;
-   
-  }
-   .paymentbox2>h1{
-     margin-left: -80px;
-     margin-bottom: -20px;
-   }
-   .paymentbox2>h5{
-    margin-left: -10px;
-    margin-bottom: -20px;
-    margin-top: 60px;
-   }
-   .paymentbox2>p{
-     margin-bottom: -25px;
-     font-size: 25px;
-     margin-left: -20px;
-   }
-   .paymentcan{
-     margin-left: -55px;
-   }
-   .paymentchange{
-     margin-left: -40px;
-   }
-   .paymentany{
-     margin-left: -3px;
-   }
-   .paymentbox2>h3{
-     color:rgb(51,51,51);
-     margin-left: -15px;
-     margin-bottom: -18px;
-     
-   }
-   .paymentmind{
-     margin-left: 35px;
-   }
-   .paymentbox3{
-     border: 1px solid black;
-   }
-   .paymentend{
-   margin-left: 55%;
-   margin-top: 32px;
-   display: flex;
-   }
-   .paymentpay1,.paymentpay2{
-     border: 1px solid grey;
-     height: 70px;
-     width: 44%;
-     margin-left: 25%;
-     margin-top: -5px;
-     border-radius: 8px;
-     display: flex;
-     justify-content: space-between;
-   }
-   .paymentbig{
-   /* overflow-y: scroll; */
-   height: 700px;
-   }
-   .paymentimage3{
-     height: 25px;
-     width: 35px;
-     margin-top: 15px;
-   }
-   .paymentenr{
-     font-size: 16px;
-   }
-   .paymentcredit{
-     color:light black;
-     margin-left: 15px;
-   }
-   .paymentimage4{
-     height: 60%;
-     width: 50%;
-     margin-top: 10px;
-     
-   }
-   .paymentgreat{
-     height: 70%;
-     width: 5%;
-     margin-top: 10px;
-   }
-   .paymentpay2{
-     margin-top: 5px;
- }
- 
- 
- 
- 
- 
+.middlebox {
+  width: 250px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.lockpic {
+  width: 50px;
+}
+
+.btnbox {
+  border: 0;
+  width: auto;
+
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+.btnpic {
+  width: 100%;
+}
