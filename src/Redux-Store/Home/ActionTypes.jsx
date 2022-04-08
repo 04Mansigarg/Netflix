@@ -11,3 +11,5 @@ export const Get_MOVIES = "Get_MOVIES"
 
 export const EMAIL = "EMAIL"
 export const PASSWORD = "PASSWORD"
+export const GETUserDATA = "GETUserDATA"
+export const AUTH = "AUTH"

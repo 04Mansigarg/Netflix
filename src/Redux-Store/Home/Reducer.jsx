@@ -1,4 +1,4 @@
-import { EMAIL, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, PASSWORD } from "./ActionTypes"
+import { AUTH, EMAIL, GETUserDATA, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, PASSWORD } from "./ActionTypes"
 
 
 const init = {
@@ -15,7 +15,9 @@ const init = {
     tv_shows: [],
     movies: [],
     email: "",
-    password: ""
+    password: "",
+    userData: [],
+    auth:false
 
 }
 
@@ -81,6 +83,16 @@ export const reducer = (state = init, { type, payload }) => {
             return {
                 ...state,
                 password: payload
+            }
+        case GETUserDATA:
+            return {
+                ...state,
+                userData: payload
+            }
+        case AUTH:
+            return {
+                ...state,
+                auth: payload
             }
         default: return state
 
