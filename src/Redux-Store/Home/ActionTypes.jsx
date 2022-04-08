@@ -8,3 +8,6 @@ export const GET_ANIME = "GET_ANIME"
 export const GET_AWARDWINNING = "GET_AWARDWINNING"
 export const Get_TVSHOWS = "Get_TVSHOWS"
 export const Get_MOVIES = "Get_MOVIES"
+
+export const EMAIL = "EMAIL"
+export const PASSWORD = "PASSWORD"

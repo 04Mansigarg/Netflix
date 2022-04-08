@@ -1,34 +1,32 @@
 import React from 'react'
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 
-export const Banner = () => {
-    const [obj, setObj] = React.useState(
-        {
-            "id": 1,
-            "title": "Little Things",
-            "category": "Indian",
-            "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQUAolj0aWIPvIeX_b3hWZgv02JOY81yERK3NHg6QukX90NzDXbcygmZr4zIuAiP96SKYj1mRg3CgIjRP_6TaEoUu1V8.webp?r=749",
-            "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWeNM_pjzgOMs-v3bIM-BPEaEpNPcZf8wplU0KiAJTyxu4pbT5oJatLztRwjoN29vKTDnk0Ushvnxb8fEHxMtA_V3BB-BnO2WYPvRQZBSImK0bcAMXL12rf81zNfqGnpOMUm06KTJHNN2xHZ_dLnGjwXvOSlcjGlseNaq-rUsfM7nw.webp?r=5f9",
-            "description": "A cohabiting couple in their 20s navigate the ups and downs of work, modern-day relationships and finding themselves in contemporary Mumbai.",
-            "match": 94,
-            "certificate": "U/A 16+",
-            "seasons": 4,
-            "year": 2021,
-            "cast": ["Dhruv Sehgal", "Mithila Palkar"],
-            "genres": [
-                "Romantic TV Dramas",
-                "Romantic TV Comedies",
-                "Hindi-Language TV Shows"
-            ],
-            "quality": ["Intimate", "Romantic"]
-
-        })
+export const MoviesBanner = () => {
+    const [obj, setObj] = React.useState({
+        "id": 1,
+        "title": "Panipat : The Great Betrayal",
+        "category": "Bollywood",
+        "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQ25sbcXndX5Mn93hJ2mnQS81972TBoTVo1xJhMCs7SPh9H2VKtEDIWEOH9DfNJ1TuoRNfFxAaAKrndOJEWna_oqFTYc.webp?r=1d4",
+        "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABaiBEtZppLB3RDCapQ314ODZ0gNEus-9ja_eYTxO5NWC0j07gMZbvn45rStaK2fKe7DrSq9AP1cNAnQrfnSoQOPFOm1Of_dS3jx-.webp?r=644",
+        "description": "In 18th-century India, a Maratha commander leads his army in preparation for a fierce battle against Afghan invaders in this film based on real events.",
+        "match": 93,
+        "certificate": "U/A 16+",
+        "duration": "2h 50m",
+        "year": 2019,
+        "cast": ["Arjun Kapoor", "Sanjay Dutt", "Kriti Sanon", "more"],
+        "genres": [
+            "Military Movies",
+            "Movies Based on Real Life",
+            "Hindi-Language Movies"
+        ],
+        "quality": ["Emotional", "Exciting", "Romantic"]
+    })
 
     React.useEffect(() => {
         let id = 2
         setInterval(() => {
             console.log(id)
-            fetch(`http://localhost:3000/banners-tv/${id}`)
+            fetch(`http://localhost:3000/banners-mo/${id}`)
                 .then((res) => res.json())
                 .then((res) => setObj(res))
                 .catch((err) => console.log(err))
@@ -84,7 +82,7 @@ export const Banner = () => {
                         paddingRight: "1rem",
                         paddingLeft: "1rem",
                         border: '0px',
-                        
+
                         width: "35%",
                         borderRadius: "2px"
                     }}>More Info</button>

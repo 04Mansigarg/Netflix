@@ -1,4 +1,4 @@
-import { GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS } from "./ActionTypes"
+import { EMAIL, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, PASSWORD } from "./ActionTypes"
 
 
 const init = {
@@ -13,7 +13,9 @@ const init = {
     hollywood: [],
     awardwinning: [],
     tv_shows: [],
-    movies: []
+    movies: [],
+    email: "",
+    password: ""
 
 }
 
@@ -69,6 +71,16 @@ export const reducer = (state = init, { type, payload }) => {
             return {
                 ...state,
                 movies: payload
+            }
+        case EMAIL:
+            return {
+                ...state,
+                email: payload
+            }
+        case PASSWORD:
+            return {
+                ...state,
+                password: payload
             }
         default: return state
 

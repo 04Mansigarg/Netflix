@@ -9,10 +9,12 @@ import { Bollywood } from './Bollywood'
 import { Hollywood } from './Hollywood'
 import { AwardWinning } from './AwardWinning'
 import { MainFooter } from './MainFooter'
+import { Banner } from './Banner'
 
 export const HomePage = () => {
     return (
         <div className={styles.home}>
+            <Banner />
             <IndianTvShows />
             <HorrorTvShows />
             <RomanceTvShows />

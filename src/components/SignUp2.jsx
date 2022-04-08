@@ -2,14 +2,27 @@ import React from "react";
 import styles from "../css/SignUp2.module.css";
 import { useNavigate } from "react-router-dom";
 import { FooterComp } from "./FooterComp";
+import { useDispatch, useSelector } from "react-redux";
+import { get_email, get_password } from "../Redux-Store/Home/Action";
 
 const SignUp2 = () => {
+  const email = useSelector((state => state.email))
+  const password = useSelector((state => state.password))
+  const dispatch = useDispatch()
   const navigate = useNavigate();
+  const addUserCredential = () => {
+    if (password === "" || email === "") {
+      alert("Add CREDENTIAL")
+    }
+    else {
+      navigate("/signup3")
+    }
+  }
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt="" />
         </div>
         <a href="/">Sign In</a>
       </div>
@@ -19,12 +32,10 @@ const SignUp2 = () => {
         <p>Just a few more steps and you're done!</p>
         <p>We hate paperwork, too.</p>
         <form action="">
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Add a password" />
+          <input type="email" placeholder="Email" value={email} onChange={(e) => dispatch(get_email(e.currentTarget.value))} />
+          <input type="password" placeholder="Add a password" value={password} onChange={(e) => dispatch(get_password(e.currentTarget.value))} />
           <button
-            onClick={() => {
-              navigate("/signup3");
-            }}
+            onClick={addUserCredential}
           >
             Next
           </button>
