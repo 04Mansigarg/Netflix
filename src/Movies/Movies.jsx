@@ -6,10 +6,12 @@ import { Hollywood } from '../HomePage/Hollywood'
 import { AllMovies } from './AllMovies'
 import styles from "../HomePage/HomePage.module.css"
 import { MainFooter } from '../HomePage/MainFooter'
+import { MoviesBanner } from './MoviesBanner'
 
 export const Movies = () => {
     return (
         <div className={styles.tvShows}>
+            <MoviesBanner />
             <AllMovies />
             <AwardWinning />
             <Hollywood />

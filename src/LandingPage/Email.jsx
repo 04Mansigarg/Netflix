@@ -4,9 +4,22 @@ import LanguageIcon from '@mui/icons-material/Language';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { get_email } from '../Redux-Store/Home/Action';
 
 export const Email = () => {
+    const email = useSelector((state => state.email))
+    const dispatch = useDispatch()
     const navigate = useNavigate()
+    const getStarted = () => {
+        if (email === "") {
+            alert("ADD EMAIL ADDRESS")
+        }
+        else {
+            navigate("/signup1")
+        }
+
+    }
     return (
         <div className={styles.main}>
             <div className={styles.emailDiv}>
@@ -39,11 +52,11 @@ export const Email = () => {
                         autoComplete="off"
                         className={styles.mail}
                     >
-                        <TextField id="filled-basic" label="Email Address" variant="standard" color='grey' InputProps={{ // <== adjusted this
-                            disableUnderline: true, // <== added this
+                        <TextField type="email" value={email} onChange={(e) => dispatch(get_email(e.currentTarget.value))} id="filled-basic" label="Email Address" variant="standard" color='grey' InputProps={{ // <== adjusted this
+                            disableUnderline: true, // <== added this 
                         }} />
                     </Box>
-                    <button onClick={() => navigate("/signup1")} className={styles.getStarted}>Get Started {'>'}</button>
+                    <button onClick={getStarted} className={styles.getStarted}>Get Started {'>'}</button>
                 </div>
 
 

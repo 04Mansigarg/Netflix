@@ -1,4 +1,4 @@
-import { GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS } from "./ActionTypes"
+import { EMAIL, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, PASSWORD } from "./ActionTypes"
 
 export const get_indian_tvshows = (data) => {
     return {
@@ -58,5 +58,18 @@ export const get_movies = (data) => {
     return {
         type: Get_MOVIES,
         payload: data
+    }
+}
+
+export const get_email = (email) => {
+    return {
+        type: EMAIL,
+        payload: email
+    }
+}
+export const get_password = (password) => {
+    return {
+        type: PASSWORD,
+        payload: password
     }
 }
