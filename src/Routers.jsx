@@ -8,13 +8,12 @@ import SignUp2 from "./components/SignUp2";
 import SignUp3 from "./components/SignUp3";
 import Login from "./components/Login";
 import { HomePage } from "./HomePage/HomePage";
-import { Banner } from "./HomePage/Banner";
 import { TvShows } from "./TvShows/TvShows";
 import { Movies } from "./Movies/Movies";
 import Player from "./components/Player";
-import Navbar from "./component/Navbar";
-import GenreBtn from "./component/GenreBtn";
-import Navbar2 from "./component/Navbar2";
+import { ItemComponent } from "./component/ItemComponent";
+// import { Search } from "./Search/Search";
+import { SearchComponent } from "./Search/SearchComponent";
 
 export const Routers = () => {
   return (
@@ -30,12 +29,9 @@ export const Routers = () => {
         <Route path="homepage" element={<HomePage />} />
         <Route path="tvshows" element={<TvShows />} />
         <Route path="movies" element={<Movies />} />
-        <Route path="banner" element={<Banner />} />
+        <Route path="item" element={<ItemComponent />} />
         <Route path="player" element={<Player />} />
-        <Route path="navbar" element={<Navbar />} />
-        <Route path="navbar2" element={<Navbar2 />} />
-        <Route path="genrebtn" element={<GenreBtn />} />
-        <Route path="signout" element={<LandingPage />} />
+        <Route path="/search/:q" element={<SearchComponent />} />
       </Routes>
     </div>
   );

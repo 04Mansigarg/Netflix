@@ -1,6 +1,7 @@
 import React from "react";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 import { useNavigate } from "react-router-dom";
+import { ItemNav } from "./ItemNav";
 
 export const Banner = () => {
   const navigate = useNavigate()
@@ -53,6 +54,7 @@ export const Banner = () => {
         backgroundSize: "cover",
       }}
     >
+      <ItemNav />
       <div style={{ width: "35%" }}>
         <img
           style={{ marginTop: "30%", marginLeft: "15%", width: "100%" }}
@@ -84,7 +86,7 @@ export const Banner = () => {
           }}
         >
           <button
-          onClick={() => navigate("/player")}
+            onClick={() => navigate("/player")}
             style={{
               backgroundColor: "rgba(255,255,255,0.75)",
               paddingLeft: "1rem",

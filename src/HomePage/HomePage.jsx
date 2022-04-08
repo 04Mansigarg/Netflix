@@ -10,10 +10,12 @@ import { Hollywood } from "./Hollywood";
 import { AwardWinning } from "./AwardWinning";
 import { MainFooter } from "./MainFooter";
 import { Banner } from "./Banner";
+import Navbar from "../component/Navbar";
 
 export const HomePage = () => {
   return (
     <div className={styles.home}>
+      <Navbar />
       <Banner />
       <IndianTvShows />
       <HorrorTvShows />

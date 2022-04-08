@@ -6,9 +6,13 @@ import EditIcon from "@mui/icons-material/Edit";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { auth, search } from "../Redux-Store/Home/Action";
 
 const Navbar = () => {
+  const search_item = useSelector(state => state.search_item)
   const navigate = useNavigate();
+  const dispatch = useDispatch()
 
   return (
     <>
@@ -53,10 +57,13 @@ const Navbar = () => {
         <span className={styles.span2}>
           <ul>
             <li>
-              <SearchIcon />
+              <SearchIcon onClick={() => {
+                navigate(`/search/${search_item}`)
+                dispatch(search(""))
+              }} />
             </li>
             <li>
-              <input type="text" placeholder="Titles, people, genres" />
+              <input type="text" placeholder="Titles, people, genres" value={search_item} onChange={(e) => dispatch(search(e.currentTarget.value))} />
             </li>
             <li>
               <div className={styles.notifContainer}>
@@ -144,7 +151,8 @@ const Navbar = () => {
                   <hr />
                   <div
                     onClick={() => {
-                      navigate("../signout");
+                      navigate("/");
+                      dispatch(auth(false))
                     }}
                     className={styles.signout}
                   >

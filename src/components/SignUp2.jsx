@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/SignUp2.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FooterComp } from "./FooterComp";
 import { useDispatch, useSelector } from "react-redux";
 import { get_email, get_password } from "../Redux-Store/Home/Action";
@@ -24,7 +24,7 @@ const SignUp2 = () => {
         <div className={styles.logo}>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt="" />
         </div>
-        <a href="/">Sign In</a>
+        <Link style={{ textDecoration: "none" }} to="/login">Sign In</Link>
       </div>
       <div className={styles.middlebox}>
         <p>STEP 1 OF 3</p>
