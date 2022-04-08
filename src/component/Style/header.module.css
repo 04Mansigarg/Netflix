@@ -1,21 +1,16 @@
-.headerbox1{
-    border: 1px solid grey;
-    height: 90px;
-    display:flex;
-    justify-content: space-between;
-  
+.headerbox1 {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.headerimage {
+  height: 80%;
+  margin-left: 20px;
+}
 
-   }
-
-   .headerimage{
-    height: 80%;
-    margin-left: 20px;
-    
-    }
-
-    
- .headersign{
-    padding-top: 10px;
-    margin-right: 20px;
-  }
+.headersign {
+  padding-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
