@@ -14,6 +14,7 @@ import { Movies } from "./Movies/Movies";
 import Player from "./components/Player";
 import Navbar from "./component/Navbar";
 import GenreBtn from "./component/GenreBtn";
+import Navbar2 from "./component/Navbar2";
 
 export const Routers = () => {
   return (
@@ -32,7 +33,9 @@ export const Routers = () => {
         <Route path="banner" element={<Banner />} />
         <Route path="player" element={<Player />} />
         <Route path="navbar" element={<Navbar />} />
+        <Route path="navbar2" element={<Navbar2 />} />
         <Route path="genrebtn" element={<GenreBtn />} />
+        <Route path="signout" element={<LandingPage />} />
       </Routes>
     </div>
   );

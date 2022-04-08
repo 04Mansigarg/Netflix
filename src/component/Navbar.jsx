@@ -5,10 +5,12 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import EditIcon from "@mui/icons-material/Edit";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [showNotifDD, setShowNotifDD] = React.useState(false);
   const [showAvatarDD, setShowAvatarDD] = React.useState(false);
+  const navigate = useNavigate();
 
   const NotifDD = () => {
     return (
@@ -28,7 +30,7 @@ const Navbar = () => {
 
   const AvatarDD = () => {
     return (
-      <div className={styles.avatarDD} onMouseEnter={() => console.log("left")}>
+      <div className={styles.avatarDD}>
         <div>
           <span>
             <img
@@ -89,7 +91,14 @@ const Navbar = () => {
           <span className={styles.names}>Help Centre</span>
         </div>
         <hr />
-        <div className={styles.signout}>Sign out of Netflix</div>
+        <div
+          onClick={() => {
+            navigate("../signout");
+          }}
+          className={styles.signout}
+        >
+          Sign out of Netflix
+        </div>
       </div>
     );
   };
@@ -98,12 +107,37 @@ const Navbar = () => {
       <div className={styles.nav}>
         <span className={styles.span1}>
           <ul>
-            <li>
+            <li
+              onClick={() => {
+                navigate("../homepage");
+              }}
+            >
               <img src="/logo.png" alt="" className={styles.logoimg} />
             </li>
-            <li className={styles.menuItems}>Home</li>
-            <li className={styles.menuItems}>TV Shows</li>
-            <li className={styles.menuItems}>Movies</li>
+            <li
+              onClick={() => {
+                navigate("../homepage");
+              }}
+              className={styles.menuItems}
+            >
+              Home
+            </li>
+            <li
+              onClick={() => {
+                navigate("../tvshows");
+              }}
+              className={styles.menuItems}
+            >
+              TV Shows
+            </li>
+            <li
+              onClick={() => {
+                navigate("../movies");
+              }}
+              className={styles.menuItems}
+            >
+              Movies
+            </li>
             <li className={styles.menuItems}>New & Popular</li>
             <li className={styles.menuItems}>My List</li>
           </ul>
