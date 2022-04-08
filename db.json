@@ -10,6 +10,16 @@
       "cvv": "009",
       "cardNumber": "2",
       "id": 1
+    },
+    {
+      "name": "Rishi",
+      "lastName": "singh",
+      "email": "rishi123@gmail.com",
+      "Password": "12345678",
+      "cardNo": "998873636525",
+      "expiryDate": "12/2024",
+      "cvv": "009",
+      "id": 2
     }
   ],
   "tvshows": [

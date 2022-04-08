@@ -1,8 +1,11 @@
 import React from "react";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
+import Navbar from "../component/Navbar";
+import Navbar2 from "../component/Navbar2";
 import { useNavigate } from "react-router-dom";
 
-export const Banner = () => {
+
+export const TvshowsBanner = () => {
   const navigate = useNavigate()
   const [obj, setObj] = React.useState({
     id: 1,
@@ -53,6 +56,8 @@ export const Banner = () => {
         backgroundSize: "cover",
       }}
     >
+      <Navbar />
+      <Navbar2 />
       <div style={{ width: "35%" }}>
         <img
           style={{ marginTop: "30%", marginLeft: "15%", width: "100%" }}
@@ -84,7 +89,7 @@ export const Banner = () => {
           }}
         >
           <button
-          onClick={() => navigate("/player")}
+            onClick={() => navigate("/player")}
             style={{
               backgroundColor: "rgba(255,255,255,0.75)",
               paddingLeft: "1rem",
