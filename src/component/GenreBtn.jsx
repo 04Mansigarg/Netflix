@@ -3,10 +3,10 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import styles from "./Style/GenreBtn.module.css";
 import { category, category1 } from "./category";
 import { useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { category_item, end_category_item, main_item } from "../Redux-Store/Home/Action";
 
-const GenreBtnDD = () => {
+const GenreBtn = () => {
 
   const dispatch = useDispatch()
   const navigate = useNavigate()
@@ -27,57 +27,44 @@ const GenreBtnDD = () => {
 
   }
   return (
-    <div className={styles.DD}>
-      <span>
-        <ul>
-          {
-            category.map((item, index) => (
-              <li onClick={() => handleChange(item)}>{item}</li>
-            ))
-          }
-        </ul>
-      </span>
-      <span>
-        <ul>
-          {
-            category1.map((item, index) => (
-              <li onClick={() => handleChange1(item)}>{item}</li>
-            ))
-          }
-        </ul>
-      </span>
-      <span>
-        <ul>
-          <li>Sci-Fi & Fantasy</li>
-          <li>Crime</li>
-          <li>Kids</li>
-          <li>Hindi</li>
-          <li>Malyalam</li>
-          <li>Fantasy</li>
-          <li>Independent</li>
-        </ul>
-      </span>
-    </div>
-  );
-};
+    <div className={styles.genreComp}>
+      <button className={styles.btn}>
+        Genres <ArrowDropDownIcon />
+      </button>
 
-const GenreBtn = () => {
-  const [showDD, setShowDD] = React.useState(false);
-  return (
-    <div>
-      <div className={styles.genreComp}>
-        <button
-          onClick={() => {
-            setShowDD(!showDD);
-          }}
-          className={styles.btn}
-        >
-          Genres <ArrowDropDownIcon />
-        </button>
-        {showDD && <GenreBtnDD />}
+      <div className={styles.DD}>
+        <span>
+          <ul>
+            {
+              category.map((item, index) => (
+                <li onClick={() => handleChange(item)}>{item}</li>
+              ))
+            }
+          </ul>
+        </span>
+        <span>
+          <ul>
+            {
+              category1.map((item, index) => (
+                <li onClick={() => handleChange1(item)}>{item}</li>
+              ))
+            }
+          </ul>
+        </span>
+        <span>
+          <ul>
+            <li>Sci-Fi & Fantasy</li>
+            <li>Crime</li>
+            <li>Kids</li>
+            <li>Hindi</li>
+            <li>Malyalam</li>
+            <li>Fantasy</li>
+            <li>Independent</li>
+          </ul>
+        </span>
       </div>
     </div>
   );
 };
 
-export default GenreBtn;
+export default GenreBtn

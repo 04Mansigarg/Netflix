@@ -1,5 +1,5 @@
 
-import { AUTH, CATEGORY, EMAIL, ENDCATEGORY, GETUserDATA, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, MAINITEM, PASSWORD } from "./ActionTypes"
+import { AUTH, CATEGORY, EMAIL, ENDCATEGORY, GETUserDATA, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, MAINITEM, PASSWORD, SEARCH, SEARCHDATA } from "./ActionTypes"
 
 
 const init = {
@@ -21,7 +21,10 @@ const init = {
     auth: false,
     mainItem: "",
     categoryItem: "",
-    endCategoryItem: ""
+    endCategoryItem: "",
+    search_item: "",
+    searchData:[]
+
 
 }
 
@@ -112,6 +115,16 @@ export const reducer = (state = init, { type, payload }) => {
             return {
                 ...state,
                 endCategoryItem: payload
+            }
+        case SEARCH:
+            return {
+                ...state,
+                search_item: payload
+            }
+        case SEARCHDATA:
+            return {
+                ...state,
+                searchData: payload
             }
         default: return state
 
