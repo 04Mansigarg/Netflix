@@ -8,7 +8,7 @@ export const Anime = () => {
     const anime = useSelector((state => state.anime))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/movies?category=Anime")
+        fetch("https://netflixd.herokuapp.com/movies?category=Anime")
             .then((res) => res.json())
             .then((res) => dispatch(get_anime(res)))
             .catch((err) => console.log(err))

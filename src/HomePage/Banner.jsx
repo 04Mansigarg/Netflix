@@ -31,7 +31,7 @@ export const Banner = () => {
     let id = 2;
     setInterval(() => {
       console.log(id);
-      fetch(`http://localhost:3000/banners-tv/${id}`)
+      fetch(`https://netflixd.herokuapp.com/banners-tv/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));
@@ -84,7 +84,7 @@ export const Banner = () => {
           }}
         >
           <button
-          onClick={() => navigate("/player")}
+            onClick={() => navigate("/player")}
             style={{
               backgroundColor: "rgba(255,255,255,0.75)",
               paddingLeft: "1rem",

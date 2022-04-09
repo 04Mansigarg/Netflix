@@ -31,7 +31,7 @@ export const Paymentform = () => {
    const handleSubmit = (e) => {
       e.preventDefault()
 
-      fetch("http://localhost:3000/users", {
+      fetch("https://netflixd.herokuapp.com/users", {
          method: "POST",
          body: JSON.stringify(formData),
          headers: { "content-type": "application/json" }
