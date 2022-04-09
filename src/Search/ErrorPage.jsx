@@ -7,7 +7,7 @@ export const ErrorPage = () => {
     return (
         <div className={styles.errorPageBody}>
             <div className={styles.errorNav}>
-                <img src="/logo.png" alt="" className={styles.logoimg} />
+                <img src="https://www.netflix.com/browse" alt="" className={styles.logoimg} />
             </div>
             <div className={styles.paraError}>
                 <h1>Lost Your Way?</h1>

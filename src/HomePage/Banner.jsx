@@ -40,7 +40,7 @@ export const Banner = () => {
       } else {
         id++;
       }
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (

@@ -42,7 +42,7 @@ export const MoviesBanner = () => {
       } else {
         id++;
       }
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (
