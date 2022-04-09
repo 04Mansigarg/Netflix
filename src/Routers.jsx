@@ -14,6 +14,8 @@ import Player from "./components/Player";
 import { ItemComponent } from "./component/ItemComponent";
 // import { Search } from "./Search/Search";
 import { SearchComponent } from "./Search/SearchComponent";
+import { PrivateRoutes } from "./PrivateRoutes";
+import { ErrorPage } from "./Search/ErrorPage";
 
 export const Routers = () => {
   return (
@@ -26,12 +28,13 @@ export const Routers = () => {
         <Route path="login" element={<Login />} />
         <Route exact path="payment" element={<Payment />} />
         <Route exact path="paymentform" element={<Paymentform />} />
-        <Route path="homepage" element={<HomePage />} />
-        <Route path="tvshows" element={<TvShows />} />
-        <Route path="movies" element={<Movies />} />
-        <Route path="item" element={<ItemComponent />} />
+        <Route path="homepage" element={<PrivateRoutes><HomePage /></PrivateRoutes>} />
+        <Route path="tvshows" element={<PrivateRoutes><TvShows /></PrivateRoutes>} />
+        <Route path="movies" element={<PrivateRoutes><Movies /></PrivateRoutes>} />
+        <Route path="item" element={<PrivateRoutes><ItemComponent /></PrivateRoutes>} />
         <Route path="player" element={<Player />} />
         <Route path="/search/:q" element={<SearchComponent />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
   );
