@@ -10,7 +10,7 @@ export const Item = () => {
     const endItem = useSelector((state) => state.endCategoryItem)
     console.log(mainItem)
     React.useEffect(() => {
-        fetch(`http://localhost:3000/${endItem}?category=${mainItem}`)
+        fetch(`https://netflixd.herokuapp.com/${endItem}?category=${mainItem}`)
             .then((res) => res.json())
             .then((res) => setData(res))
             .catch((err) => console.log(err))

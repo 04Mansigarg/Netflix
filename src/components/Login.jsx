@@ -33,7 +33,7 @@ const Login = () => {
   }
 
   React.useEffect(() => {
-    fetch("http://localhost:3000/users")
+    fetch("https://netflixd.herokuapp.com/users")
       .then((res) => res.json())
       .then((res) => dispatch(get_userData(res)))
       .catch((err) => console.log(err))

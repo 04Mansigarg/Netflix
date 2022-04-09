@@ -14,7 +14,7 @@ export const IndianTvShows = () => {
     const indianShows = useSelector((state => state.indian_tv))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/tvshows?category=Indian")
+        fetch("https://netflixd.herokuapp.com/tvshows?category=Indian")
             .then((res) => res.json())
             .then((res) => dispatch(get_indian_tvshows(res)))
             .catch((err) => console.log(err))

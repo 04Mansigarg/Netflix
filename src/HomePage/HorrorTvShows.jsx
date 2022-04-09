@@ -8,7 +8,7 @@ export const HorrorTvShows = () => {
     const horrorShows = useSelector((state => state.horror_tv))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/tvshows?category=Horror")
+        fetch("https://netflixd.herokuapp.com/tvshows?category=Horror")
             .then((res) => res.json())
             .then((res) => dispatch(get_horror_tvshows(res)))
             .catch((err) => console.log(err))

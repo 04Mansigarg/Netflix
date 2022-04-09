@@ -8,7 +8,7 @@ export const AwardWinning = () => {
     const awardwinning = useSelector((state => state.awardwinning))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/movies?category=AwardWinning")
+        fetch("https://netflixd.herokuapp.com/movies?category=AwardWinning")
             .then((res) => res.json())
             .then((res) => dispatch(get_awardwinning(res)))
             .catch((err) => console.log(err))

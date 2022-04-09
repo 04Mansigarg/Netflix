@@ -8,7 +8,7 @@ export const DocuseriesTvShows = () => {
     const docuseriesShows = useSelector((state => state.docuseries_tv))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/tvshows?category=Docuseries")
+        fetch("https://netflixd.herokuapp.com/tvshows?category=Docuseries")
             .then((res) => res.json())
             .then((res) => dispatch(get_docuseries_tvshows(res)))
             .catch((err) => console.log(err))
