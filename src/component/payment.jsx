@@ -25,7 +25,7 @@ export const Payment = () => {
         <h4>No commitments. Cancel online anytime.</h4>
       </div>
       <button onClick={() => payment()} className={styles.btnbox}>
-        <img src="/btnpic.png" alt="" className={styles.btnpic} />
+        <img src="https://www.linkpicture.com/q/btnpic.png" alt="" className={styles.btnpic} />
       </button>
       <FooterComp />
     </div>
