@@ -10,7 +10,9 @@
 
 
 
+## Landing Page
 
+![Header](https://github.com/04Mansigarg/Netflix/blob/main/src/assets/Netflix.jpg)
 ## Features ✨
 
 1. Only Authorized user can explore the Website.
