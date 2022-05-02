@@ -4,14 +4,21 @@ import styles from "../css/SignUp3.module.css";
 import { FooterComp } from "./FooterComp";
 
 const SignUp3 = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" />
+          <a href="/">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
+              alt=""
+            />
+          </a>
         </div>
-        <a href="">Sign Out</a>
+        <a className={styles.signbtn} href="">
+          Sign Out
+        </a>
       </div>
       <div className={styles.middlebox}>
         <img

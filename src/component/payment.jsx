@@ -13,7 +13,20 @@ export const Payment = () => {
 
   return (
     <div className={styles.paymentbig}>
-      <Header />
+      {/* <Header /> */}
+      <div className={styles.header}>
+        <div className={styles.logo}>
+          <a href="/">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <a className={styles.signbtn} href="/">
+          Sign Out
+        </a>
+      </div>
       <div className={styles.middlebox}>
         <img
           src="https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Lock.png"
