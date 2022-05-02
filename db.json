@@ -1,11 +1,57 @@
 {
-  "users":[],
+  "users": [
+    {
+      "name": "John",
+      "lastName": "Cummins",
+      "email": "john123@gmail.com",
+      "Password": "123456789",
+      "cardNo": "66666666666",
+      "expiryDate": "12/2022",
+      "cvv": "009",
+      "cardNumber": "2",
+      "id": 1
+    },
+    {
+      "name": "Rishi",
+      "lastName": "singh",
+      "email": "rishi123@gmail.com",
+      "Password": "12345678",
+      "cardNo": "998873636525",
+      "expiryDate": "12/2024",
+      "cvv": "009",
+      "id": 2
+    },
+    {
+      "name": "rishi",
+      "lastName": "kumar",
+      "email": "rishi123@gmail.com",
+      "Password": "123456",
+      "cardNo": "1234567777",
+      "expiryDate": "12/2022",
+      "cvv": "009",
+      "id": 3
+    },
+    {
+      "name": "mansi",
+      "lastName": "garg",
+      "email": "garg6446@gmail.com",
+      "Password": "123",
+      "cardNo": "1234567",
+      "expiryDate": "02/2020",
+      "cvv": "009",
+      "id": 4
+    }
+  ],
   "tvshows": [
     {
       "id": 1,
       "title": "Delhi Crime",
       "category": "Indian",
-      "quality": ["Gritty", "Dark", "Thriller"],
+      "quality": [
+        "Gritty",
+        "Dark",
+        "Thriller"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABb1ZeErPlo7jcBifJ1flQVSn976L5Wt4SCHAuPoN9o6Dys8J8kelH_PugxCIcbADQEtw3uoaMF3L832_r2Oy5TaKmCQgKCvAvlcTGkZ9MSyL8qwuPIHPO6y3xeCx.jpg?r=dca",
       "match": 98,
       "certificate": "U/A 16+",
@@ -15,7 +61,11 @@
       "id": 2,
       "title": "The Fame Game",
       "category": "Indian",
-      "quality": ["Soapy", "Dark", "Emotional"],
+      "quality": [
+        "Soapy",
+        "Dark",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWUyIbtRPOZHbVoPGAjVJgR6udcdI3-kWGk_F5neIs59gQigIWN-0eeeOcS-Qi8BPSAW_yFrI8IDfQOyC2U4NTcrHNhidgK9bh6o_zZR2yvRtxsAF63uHiPxikYi.jpg?r=d93",
       "match": 98,
       "certificate": "U/A 16+",
@@ -25,7 +75,11 @@
       "id": 3,
       "title": "Ye Kaali Kaali Ankhen",
       "category": "Indian",
-      "quality": ["Gritty", "Emotional", "Romantic"],
+      "quality": [
+        "Gritty",
+        "Emotional",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWMEFaEK29Oq-okijCupNUm5edpA8tY-u1XF0hQjhYI6Q6zrMyflGMnvTXrszAnPleT2tA5zqcSCbgCCy804QVXE-ijSGH_V0Q-5iQUmg_yUYu38CdepCOXHEUG-.jpg?r=0ee",
       "match": 97,
       "certificate": "U/A 16+",
@@ -35,7 +89,11 @@
       "id": 4,
       "title": "Kota Factory",
       "category": "Indian",
-      "quality": ["Intimate", "Emotional", "Romantic"],
+      "quality": [
+        "Intimate",
+        "Emotional",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdbRWwoF9LXhsvOZw8CkStHcYjKn9mrTPHcMdDWbK0F2GqfteoIWla-L4KeTH1IE4Jmclo-rLw-XIs5iGHksjAoOcEjEYOcPbntvksK9hI3iCpLuG2iGKCwmr244.jpg?r=4d9",
       "match": 95,
       "certificate": "U/A 13+",
@@ -45,7 +103,11 @@
       "id": 5,
       "title": "Selection Day",
       "category": "Indian",
-      "quality": ["Gritty", "Heartfel", "Emotional"],
+      "quality": [
+        "Gritty",
+        "Heartfel",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdxmMPAOCgE-zq8CkJ08pZ90gNkWNIV1h-6dbaEIvPjkc0Ogt5dWd_4mKwj665FexTb0wh3kMLDqvInwhmGEVRX89ppJW92EK2TzTrgBZjHK0ai_Llc1-QhrEqSf.jpg?r=60b",
       "match": 91,
       "certificate": "U/A 13+",
@@ -55,7 +117,11 @@
       "id": 6,
       "title": "Little Things",
       "category": "Indian",
-      "quality": ["Intimate", "Romantic", "Dramedy"],
+      "quality": [
+        "Intimate",
+        "Romantic",
+        "Dramedy"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZ72pSx6G3rOQj7eyHCkj1clVYdP9-VdxwaGDsjUGlNqHnsTlVNdwI63CPnk9K2rPHjHCWDqAcUcNLaPuxr22A2gt6VUG2UfQ64MLlg8VKiUt7B4zU3OLevRxw9J.jpg?r=8a3",
       "match": 90,
       "certificate": "U/A 16+",
@@ -65,7 +131,11 @@
       "id": 7,
       "title": "Sudha Murthy - Stories of Wit and Magic",
       "category": "Indian",
-      "quality": ["Magical", "Exciting", "kids"],
+      "quality": [
+        "Magical",
+        "Exciting",
+        "kids"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdn51dkJ54PG642DSRExUr51JoxKpZMImWGojVTjyJdySkwGyfDzQRnu6CYezQ7lx_x6dUE22nNYywqB7VwXY4TVYw8.webp?r=ba1",
       "match": 90,
       "certificate": "U/A 7+",
@@ -75,7 +145,11 @@
       "id": 8,
       "title": "Dharma Kshetra",
       "category": "Indian",
-      "quality": ["Fantasy TV", "Drama", "Ensemble"],
+      "quality": [
+        "Fantasy TV",
+        "Drama",
+        "Ensemble"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc6gMVXgJgPd6BaMfXGlGqbrFw38OFHYvTD1TL8rboz22COFsBOetYFKwqshcf2BFcuC6nI6c__f_m2PnG4g0CxNniQ.webp?r=22a",
       "match": 88,
       "certificate": "U/A 13+",
@@ -85,7 +159,11 @@
       "id": 9,
       "title": "Stories by Rabindranath Tagore",
       "category": "Indian",
-      "quality": ["Intimate", "Period Piece", "Drama"],
+      "quality": [
+        "Intimate",
+        "Period Piece",
+        "Drama"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcEY3sy3rrbNKtP3GhLW3TT0MXKXwzVyvExknR9n3SaZ9ef7zbBgD8wgi4p6tuk8ywl4EHJU8eJrrDEROc6RPeD6xDU.webp?r=e27",
       "match": 81,
       "certificate": "U/A 13+",
@@ -95,7 +173,11 @@
       "id": 10,
       "title": "Ray",
       "category": "Indian",
-      "quality": ["Chilling", "Psychological", "Thriller"],
+      "quality": [
+        "Chilling",
+        "Psychological",
+        "Thriller"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZ_MVUXAKz1EbcD7JRw3jEHsWOdf9SqnmCjnRjYILblFINm1xtdS5wlCvmNABlhY82YXn0R-BvpJobC2Ndc0Oi7rY528XuNwuZ5iuMbd1rDc11Uk3RwbaryrpBLk.jpg?r=f31",
       "match": 82,
       "certificate": "U/A 16+",
@@ -105,7 +187,11 @@
       "id": 11,
       "title": "Bridgerton",
       "category": "Romance",
-      "quality": ["Swoonworthy", "Witty", "Emotional"],
+      "quality": [
+        "Swoonworthy",
+        "Witty",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYqJuWml843q12AcNBKG2x_PV6r9hjuOWXTAlVfJb_12GXlnPzY9t4UfqWTZ4rD6w9Djw6fUmmakPA8A45BoVn1iH983brWTfPMhJfYbY85S6sdlvOEe5LShFmVf-xwZL6E4565eIdMDX1soGvNKEy4A0c14weMGKy6LjVopRzADMXLV09kvjs94ZIiZqkrDvEeQI4UcIK2mnmJEQElAFAXt.jpg?r=f98",
       "match": 98,
       "certificate": "A",
@@ -115,7 +201,11 @@
       "id": 12,
       "title": "Business Proposal",
       "category": "Romance",
-      "quality": ["Swoonworthy", "Charming", "Romantic"],
+      "quality": [
+        "Swoonworthy",
+        "Charming",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQeIR8B0H4i8-YVIr3ig-2VhlbywVOZvKN8V16bWTBZVw18WVD9A6v5zOy8o83Btj26nUkatDuTcfswmIrPar6fiEyUazZR_A4pml6qa2YdJQPE9ZOn1Rk47DUfT2BAThJ1yBZoO9N-jd080Ll3Yiymbs8HfOl9ZATL0fZ-1fYmK_bhZKtHf04kJrqxAEn3HuDWZAdpuBqlegb-UNaeM3WG8.jpg?r=c02",
       "match": 97,
       "certificate": "U/A 13+",
@@ -125,7 +215,11 @@
       "id": 13,
       "title": "Twenty Five Twenty One",
       "category": "Romance",
-      "quality": ["Nostalgic", "Intimate", "Inspiring"],
+      "quality": [
+        "Nostalgic",
+        "Intimate",
+        "Inspiring"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUFRUFeH9M2QIbAsU5fdq0yc2IC4BXvsoTkW_xOVU3gz65FBCWydLExl7ODMU3bvAB0Uu2zlAo70SHP-fETwTRPrCpu-4iO0ipc3OetTxDI3W6I63V4JswP3lgjwGhrIcxbdVaDVyjAolLYW07aKt4V9ka5RZPLsSDWZE5zCcOlY-bmqjgbGrAdOZnLFhx9jLknfKCzPvOMxaXS39AKswNsF.jpg?r=637",
       "match": 96,
       "certificate": "U/A 13+",
@@ -135,7 +229,11 @@
       "id": 14,
       "title": "Crash Landing On You",
       "category": "Romance",
-      "quality": ["Swoonworthy", "Charming", "Heartfelt"],
+      "quality": [
+        "Swoonworthy",
+        "Charming",
+        "Heartfelt"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbVrdJTwQ5o6sWIuLwArperq8qv4ZfqEutY0FkX1vZbSKI8EnZsnvKcKRq6vHKDxas2LYejeUwzfJMWBiVcuCu73vkivmrQy5MtjAFx0HkjQ7pyukZTOuqs4g4N2.jpg?r=084",
       "match": 93,
       "certificate": "U/A 13+",
@@ -145,7 +243,11 @@
       "id": 15,
       "title": "It's Okay To Not Be Okay",
       "category": "Romance",
-      "quality": ["Swoonworthy", "Quirky", "Heartfelt"],
+      "quality": [
+        "Swoonworthy",
+        "Quirky",
+        "Heartfelt"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc0gAwYqRDXTaG8hdvDCg1eAXuk9FPCwkDPxDhHEc1rRANxzegf8MehmocMd0h76xirSJbFO_C6za0n6_tWpSnwM04QLUujLNRqb3_mAPEUnjG4gydpkjfB_bb3C.jpg?r=f4c",
       "match": 89,
       "certificate": "U/A 13+",
@@ -155,7 +257,11 @@
       "id": 16,
       "title": "Mismatched",
       "category": "Romance",
-      "quality": ["Quirky", "Heartfelt", "Romantic"],
+      "quality": [
+        "Quirky",
+        "Heartfelt",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQW7hFwbfKW8k2MgEhWVi_E8W85nW75cIRJQZWP1FCIw7Oog_9611ixzW1wXXAJftcOmjwXljeESaG6mnT4tIf_KDId4B0DEaygK52hXPX61BObZqAExdJTvz1Ow.jpg?r=e20",
       "match": 86,
       "certificate": "A",
@@ -165,7 +271,11 @@
       "id": 17,
       "title": "Emily In Paris",
       "category": "Romance",
-      "quality": ["Campy", "Soapy", "Quirky"],
+      "quality": [
+        "Campy",
+        "Soapy",
+        "Quirky"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABa4lqtEsH4kBg0W9EK4Evfp9439olJhEhzyqOt-IStt17qUSSPFPZMjqBNeeMez6nCX1E17c-sZIyuGoaT69GlSumIsG2UmGGQOtwn_dK0y8qRZgAOT3DCgeBB0F.jpg?r=3dc",
       "match": 86,
       "certificate": "U/A 16+",
@@ -175,7 +285,11 @@
       "id": 18,
       "title": "Gilmore Girls",
       "category": "Romance",
-      "quality": ["Witty", "Intimate", "Romantic"],
+      "quality": [
+        "Witty",
+        "Intimate",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbfe8xIEa_hk0scnpRGwojPmP1ihGEsXJhnK43myciQkOgnZtf2CK2TZc12W3h4_2MzSBQU_tegt30jOdAFMw4iHtKE.webp?r=447",
       "match": 81,
       "certificate": "A",
@@ -185,7 +299,11 @@
       "id": 19,
       "title": "Virgin River",
       "category": "Romance",
-      "quality": ["Intimate", "Heartfelt", "Emotional"],
+      "quality": [
+        "Intimate",
+        "Heartfelt",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbRMjii2H9wM5c9iKQ35I5HkYrKaM42Kd1hec_zgQaVoqx9wuydVdRt3GSwb3teox0AEwbdVtD7wK2Emn5PwyJho5i3D8oZ_jz2LLuvlO3XpMjwYAsgYxL_fX61F.jpg?r=22d",
       "match": 70,
       "certificate": "U/A 16+",
@@ -195,7 +313,11 @@
       "id": 20,
       "title": "Love And Redemption",
       "category": "Romance",
-      "quality": ["Swoonworthy", "Sentimental", "Exciting"],
+      "quality": [
+        "Swoonworthy",
+        "Sentimental",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSjLhZje8KzPgWIH7sERDtDDtwmJSfOl4gAI9sd9HXLSxbYVFlrjq0cjTfANOxmB2bypY4tMINYeZqNo67rU8ss3vfI.webp?r=d4b",
       "match": 80,
       "certificate": "U/A 16+",
@@ -205,7 +327,11 @@
       "id": 21,
       "title": "All Of Us Are Dead",
       "category": "Horror",
-      "quality": ["Gruesome", "Gory", "Horror"],
+      "quality": [
+        "Gruesome",
+        "Gory",
+        "Horror"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABa7ubCpXT3JUn1sAbI2c2wkgvCEUpQ9ed46ft9c97SuLyTSSIeFrzTAVtrHDwNDfqRIkLuZ70LP4oGrqmwj_ODqXWMeH6zDI6rFmW5eBHokariU5dzdYuKkJi92f.jpg?r=891",
       "match": 98,
       "certificate": "A",
@@ -215,7 +341,11 @@
       "id": 22,
       "title": "Stranger Things",
       "category": "Horror",
-      "quality": ["Nostalgic", "Ominous", "Scary"],
+      "quality": [
+        "Nostalgic",
+        "Ominous",
+        "Scary"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVHUOJmTjLhLc6CDwpJaXOA3IoOiM1qo4WvLEoc4Zn1IIjr2jmmteI9Gnl8a2qcJ-YrZK7KWieXnggH5Rw4J6LoUCINgmy1qTWyXTrInMwN_BkNR7UMqJD6F0LBN.jpg?r=0dc",
       "match": 97,
       "certificate": "U/A 16+",
@@ -225,7 +355,11 @@
       "id": 23,
       "title": "The Walking Dead",
       "category": "Horror",
-      "quality": ["Dystopian", "Gory", "Ominous"],
+      "quality": [
+        "Dystopian",
+        "Gory",
+        "Ominous"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdqGsP00urG6ah1TqT9TIA1_erVQ9u-YIvOIj_IAIb7qDwWHuS35_otVnbI8wPEVYL5Li9fV_LOE38PE_xIsy3x8kHU.webp?r=0ce",
       "match": 94,
       "certificate": "A",
@@ -235,7 +369,11 @@
       "id": 24,
       "title": "Death Note",
       "category": "Horror",
-      "quality": ["Chilling", "Cerebral", "Psychological"],
+      "quality": [
+        "Chilling",
+        "Cerebral",
+        "Psychological"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYrwQZBRIGLQZ6cS1NbnSoItYAscSfzcvRFucQmesnZZJmhts-3uVkVzZQHVbKfjaMaqNBtER2VehgP4jJeP9LbMXV8.webp?r=bc9",
       "match": 94,
       "certificate": "U/A 16+",
@@ -245,7 +383,11 @@
       "id": 25,
       "title": "Teen Wolf",
       "category": "Horror",
-      "quality": ["Gruesome", "Gory", "Suspenseful"],
+      "quality": [
+        "Gruesome",
+        "Gory",
+        "Suspenseful"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQZqv2ALJG1VbILHE1uMIADCaI9ime9Z4-EjJ1TprWs7JWruAXs7BpBD6zXw5QuBsYYFB4iREcVoCn1VMKJuv4qxD3M.webp?r=02a",
       "match": 94,
       "certificate": "A",
@@ -255,7 +397,11 @@
       "id": 26,
       "title": "The Haunting Of Hill House",
       "category": "Horror",
-      "quality": ["Chilling", "Ominous", "Psychological"],
+      "quality": [
+        "Chilling",
+        "Ominous",
+        "Psychological"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZrYtrdO_NetxqJz8r3-pF8suLTwtyZ3S4wYtAzEChLji97Oggfa-Yhafd0_gBYm3wjo9o7zoB6_TMd67y5JN93_VSnWaix-elVBBNPS38FIgKOA9-a0xKQyzQdl.jpg?r=76b",
       "match": 80,
       "certificate": "A",
@@ -265,7 +411,11 @@
       "id": 27,
       "title": "Betaal",
       "category": "Horror",
-      "quality": ["Scary", "Horror", "Action"],
+      "quality": [
+        "Scary",
+        "Horror",
+        "Action"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXYENPGOz-_wYNwrEu55BPrjF0wnRd1sTIC3eqErAnLc9glumZXED1TyBBE4icXjz5xB_SdapQPxTG3YnFQeXcZn8r0E592DLK6bvxN2ndn8eGPBQ8nU1iZRPYeA.jpg?r=52b",
       "match": 77,
       "certificate": "U/A 16+",
@@ -275,7 +425,11 @@
       "id": 28,
       "title": "Ghoul",
       "category": "Horror",
-      "quality": ["Dystopian", "Scary", "Dark"],
+      "quality": [
+        "Dystopian",
+        "Scary",
+        "Dark"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXLHnD5v9ur3V7pnn7E5k4wXZiO255Bm027DvxR6d-QdxvfSZNH-kVqw3nf5Y8JK5QDopwDx_e0Rw_fpU2WSlys5Dus5dJKJQ_IddYZwlI_i4MBXrH3LIqD5g7zz.jpg?r=5eb",
       "match": 74,
       "certificate": "A",
@@ -285,7 +439,11 @@
       "id": 29,
       "title": "Hellbound",
       "category": "Horror",
-      "quality": ["Violent", "Dark", "Suspenseful"],
+      "quality": [
+        "Violent",
+        "Dark",
+        "Suspenseful"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWc-7b1mUemoC1pOFuhV8PEGVMPGUrJVI-Nvnrn_2UqDDXS_1AtxvnM3w9r7ImTldRTukgmPloaKIA1P8R1O80ErWcXuGJFa4TLyaowYWA4VZdIW6fQ1R-ae1lBy.jpg?r=02d",
       "match": 73,
       "certificate": "A",
@@ -295,7 +453,11 @@
       "id": 30,
       "title": "Archive81",
       "category": "Horror",
-      "quality": ["Mindbending", "Ominous", "Cerebral"],
+      "quality": [
+        "Mindbending",
+        "Ominous",
+        "Cerebral"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABR5u5RKIFdxC2mw9MoytJS80ZktNIAuRrGfQwHYCk8qX2ITLwoXsHwrfd82FLo8Ajxv_jpu49nn8Vtm4jmiuRrap7Bp9vM8fvD8fED2gr67noO_FbUIQGOpZajKl.jpg?r=2aa",
       "match": 90,
       "certificate": "A",
@@ -305,7 +467,11 @@
       "id": 31,
       "title": "Formula 1 : Drive To Survive",
       "category": "Docuseries",
-      "quality": ["Captivating", "Exciting", "Docuseries"],
+      "quality": [
+        "Captivating",
+        "Exciting",
+        "Docuseries"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABepDxyyWg43b547dupRu0q8JiMqEcNiKp9a1XhCPJaXPzKefViIuWK6p_oqDd8RLiFZqFwrBkom9ysHSDftviLo0yqQizx97jrPyRtBqFOoDTVjPoTRf4hhey8rIK8eCqOelCmATnD-0FlbG6ygEfpuF4fW5-g.jpg?r=10d",
       "match": 89,
       "certificate": "A",
@@ -315,7 +481,11 @@
       "id": 32,
       "title": "House Of Secrets : The Burari Deaths",
       "category": "Docuseries",
-      "quality": ["Psychological", "Dark", "Investigative"],
+      "quality": [
+        "Psychological",
+        "Dark",
+        "Investigative"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTDBA57nvgg-C1iEB45QpvvKG_8VY4QJC2gBWKna_cV3wwHRmJaE6PCnwNSNpRZD-ojIG_68EN5qEuXWwaObOraDdx_4kweob5xZuyZcbuciKodFkvPfXSut4eV3.jpg?r=7ac",
       "match": 86,
       "certificate": "A",
@@ -325,7 +495,11 @@
       "id": 33,
       "title": "Wild Wild Country",
       "category": "Docuseries",
-      "quality": ["Riveting", "Provocative", "Cerebral"],
+      "quality": [
+        "Riveting",
+        "Provocative",
+        "Cerebral"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYfCten2A3Vj33TfJV0k6pQtnF6GBQ3t627nhou0IdoFgrVxI-erlX4_LqLE_n_HfSVyeNQfZw1ADSLUvIAyU8JALwt8ht2bFewyPPXlh4kM5G_GNLLTLerJDbiv.jpg?r=1f2",
       "match": 79,
       "certificate": "A",
@@ -335,7 +509,11 @@
       "id": 34,
       "title": "The Last Dance",
       "category": "Docuseries",
-      "quality": ["Captivating", "Nostalgic", "Feel-Good"],
+      "quality": [
+        "Captivating",
+        "Nostalgic",
+        "Feel-Good"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc80lfA0c_wgojs7bir3GxBeFCbllulPT-PMMUsIzUnoFztIEn9L80F3RR7klbC20kyfSMfyyuyVCkslIaa-3dmUCXKW7BLj7upwdn_hGhNk53PSY_kep70_4Jb8.jpg?r=b56",
       "match": 66,
       "certificate": "U/A 16+",
@@ -345,7 +523,11 @@
       "id": 35,
       "title": "Crime Stories : India Detectives",
       "category": "Docuseries",
-      "quality": ["Gritty", "Dark", "True Crime"],
+      "quality": [
+        "Gritty",
+        "Dark",
+        "True Crime"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABY9JYFySn8E-r_WiIdQF4r7DsA-MflytQ00JGCei6nnzXq60admk4JVE5xu6IFXnBOB4PYkkCpvWSpGQhnLAWPJjKtVNKgxC7dRBU4qbyj0unUYVTglvdknpvSaw.jpg?r=fd9",
       "match": 62,
       "certificate": "U/A 16+",
@@ -355,7 +537,11 @@
       "id": 36,
       "title": "Roman Empire",
       "category": "Docuseries",
-      "quality": ["Provocative", "Gritty", "Exciting"],
+      "quality": [
+        "Provocative",
+        "Gritty",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW7hc5wRS2tqaDYu4n14Hs4MjAlai2OoQzBuFby-f4IT-FhCiNBKPwApuFytcofETytB-1JkznMKuvetofep61Oc1mVnZYgAar9mSl24PH_yiFNlI9dY-hA3T65V.jpg?r=50e",
       "match": 90,
       "certificate": "A",
@@ -365,7 +551,11 @@
       "id": 37,
       "title": "Bad Boy Billionaires : India",
       "category": "Docuseries",
-      "quality": ["Investigative", "Social & Cultural", "Docuseries"],
+      "quality": [
+        "Investigative",
+        "Social & Cultural",
+        "Docuseries"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWtTdKL7PMF_fGrzvdRdSk_jaCMbmvTLIw5_ceO8ZTzt-3MtZntVS70PRJnExgOfFf4xB9qGN6Y3juk5hY3werka1NFDFs3KDFJNrrcE805xJKq5rVMa0bsN-rZ6.jpg?r=529",
       "match": 89,
       "certificate": "U/A 13+",
@@ -375,7 +565,11 @@
       "id": 38,
       "title": "The Mind Explained",
       "category": "Docuseries",
-      "quality": ["Provocative", "Investigative", "Docuseries"],
+      "quality": [
+        "Provocative",
+        "Investigative",
+        "Docuseries"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXxiM31hq_UoZei8U-xPacgxTZVvyp5q2_Lsg5bLNtDGKDhv-E2lNlQT-7Q_fe36FAH9DYqRCgKUTXumnuecuyA2BADbQ3OkbmvBqR9NOyx88B3yMcJePeyXVdaP.jpg?r=c60",
       "match": 91,
       "certificate": "A",
@@ -385,7 +579,11 @@
       "id": 39,
       "title": "Inside Bill's Brain : Decoding Bill Gates",
       "category": "Docuseries",
-      "quality": ["Investigative", "Climate Change", "Docuseries"],
+      "quality": [
+        "Investigative",
+        "Climate Change",
+        "Docuseries"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfTx1mRMtY-SPxbIN92cHZoKgdToxjVtfOKuAeIKdWU9Vqa2-HPc0HUbURUKAMARcNcNMK-BsCKMBopATUi2rJCWPV8mkX8tifS9-sj1rn1Ss-YiRZ0JO78HZyhy.jpg?r=c37",
       "match": 81,
       "certificate": "U/A 13+",
@@ -395,7 +593,11 @@
       "id": 40,
       "title": "Meat Eater",
       "category": "Docuseries",
-      "quality": ["Fishing", "Nature Doc", "Docuseries"],
+      "quality": [
+        "Fishing",
+        "Nature Doc",
+        "Docuseries"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc4M1IGUCDZbJ0Mk3MD4ckQU3RsWogQQC3OUFfhFyDSKb-hbW_G8LHzvLm56mh7Xy4E7EuX_8v4lIQxCXgPqCg9sOubH1bPW1wqfgi0B-4pZlP9jY_CWc4AngoFP.jpg?r=bd9",
       "match": 81,
       "certificate": "U/A 13+",
@@ -407,7 +609,11 @@
       "id": 1,
       "title": "83",
       "category": "Bollywood",
-      "quality": ["Rousing", "Inspiring", "Heartfelt"],
+      "quality": [
+        "Rousing",
+        "Inspiring",
+        "Heartfelt"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc6iNym2D7VZFoLCN1rOQ4e0c2VKDpOWxqIyT6YJR-nYaQeOGokfxkwmT2C-goQcy25GH3atsW-4USvP4gYHCKCOusmyQ8VisSuQQa3A6_zGA_vV2pcG0ICdiW0ieUmMI9oRhu4L4FiyS-bOKwKUOPrGYfQ.jpg?r=4f8",
       "match": 98,
       "certificate": "U/A 13+",
@@ -417,7 +623,11 @@
       "id": 2,
       "title": "Badhai Do",
       "category": "Bollywood",
-      "quality": ["Quirky", "Emotional", "Romantic"],
+      "quality": [
+        "Quirky",
+        "Emotional",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABebeVm00XKLG2-pozOiy8SsaCJvkVXembSEGuiOany8KGL0rvWUrp-oXPvixr8R8Fr-Lfd5aW3ru1MWPksDenfy1Vug-UuJzB7tihFpMQ--pqHKN7IxUDBA-lgSXDKS_9ZAHuZktS0IFm9dA6p3hvBai5P8.jpg?r=947",
       "match": 97,
       "certificate": "U/A 13+",
@@ -427,7 +637,11 @@
       "id": 3,
       "title": "Sooryavanshi",
       "category": "Bollywood",
-      "quality": ["Explosive", "Slick", "Exciting"],
+      "quality": [
+        "Explosive",
+        "Slick",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRMs8Q276sJiQGz-hThwGZNCGax--blqONDRbwHu2_Fs39P-hYu7gWJnoTdOQCu1B_uN0hwQZ__HdCB6h6bHHX2l-xU.jpg?r=947",
       "match": 97,
       "certificate": "U/A 16+",
@@ -437,7 +651,11 @@
       "id": 4,
       "title": "Kabir Singh",
       "category": "Bollywood",
-      "quality": ["Emotional", "Romantic", "Drama"],
+      "quality": [
+        "Emotional",
+        "Romantic",
+        "Drama"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbVXpYoO2VANuyepAI44ekKYhybvZZCla66Xc7WMSFPUId2rEeYRMdCnyJRV0smWB7_1_XOKrISkXg-arDr6zXlPRlE.jpg?r=e37",
       "match": 86,
       "certificate": "A",
@@ -447,7 +665,11 @@
       "id": 5,
       "title": "3 Idiots",
       "category": "Bollywood",
-      "quality": ["Sentimental", "Emotional", "Dramedy"],
+      "quality": [
+        "Sentimental",
+        "Emotional",
+        "Dramedy"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUvxscdKQnXm4EWMwH7uDp82J8LiRdJHY_hB75MbZRcRewZFPEWKWu3sBqssRRWExhKLEltb0tLvr91gsWUmUTHGLNo.jpg?r=ba2",
       "match": 84,
       "certificate": "U/A 16+",
@@ -457,7 +679,11 @@
       "id": 6,
       "title": "83",
       "category": "Bollywood",
-      "quality": ["Rousing", "Inspiring", "Heartfelt"],
+      "quality": [
+        "Rousing",
+        "Inspiring",
+        "Heartfelt"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc6iNym2D7VZFoLCN1rOQ4e0c2VKDpOWxqIyT6YJR-nYaQeOGokfxkwmT2C-goQcy25GH3atsW-4USvP4gYHCKCOusmyQ8VisSuQQa3A6_zGA_vV2pcG0ICdiW0ieUmMI9oRhu4L4FiyS-bOKwKUOPrGYfQ.jpg?r=4f8",
       "match": 98,
       "certificate": "U/A 13+",
@@ -467,7 +693,11 @@
       "id": 7,
       "title": "Talaash",
       "category": "Bollywood",
-      "quality": ["Psychological", "Gritty", "Suspenseful"],
+      "quality": [
+        "Psychological",
+        "Gritty",
+        "Suspenseful"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTom3ABRTVxndigHXAn7srms082ezC7VNtBwpOVtLI8Dgmrh3r1REneKdzBx_LLJDlN2fIpFjG5ZGipeQJOdbTZ-58w.jpg?r=f0a",
       "match": 64,
       "certificate": "A",
@@ -477,7 +707,11 @@
       "id": 8,
       "title": "Karthik Calling Karthik",
       "category": "Bollywood",
-      "quality": ["Psychological", "Thriller", "Drama"],
+      "quality": [
+        "Psychological",
+        "Thriller",
+        "Drama"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdm16DLWE8n1iMqfsxhmER7F77HxgJBWpKNGfTYzHSLMcqQtCp4ekdR-suztn3TU3NQ_8c1VLlYMKbuFgyRDiZNp5w8.jpg?r=cc8",
       "match": 88,
       "certificate": "U/A 16+",
@@ -487,7 +721,11 @@
       "id": 9,
       "title": "Taare Zameen Par",
       "category": "Bollywood",
-      "quality": ["Inspiring", "Heartfelt", "Feel-Good"],
+      "quality": [
+        "Inspiring",
+        "Heartfelt",
+        "Feel-Good"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcWwv3YR9ZRJkGWOB8kLSMDFp3tA-b06WRuUbeL1KRcy1yPRcWsllu7YuXKuDsX8JMneMFj1ZrVYPwPaoCd-qiUZPLc.jpg?r=846",
       "match": 81,
       "certificate": "U/A 13+",
@@ -497,7 +735,11 @@
       "id": 10,
       "title": "Stree",
       "category": "Bollywood",
-      "quality": ["Suspenseful", "Horror Comedy", "Independent"],
+      "quality": [
+        "Suspenseful",
+        "Horror Comedy",
+        "Independent"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUD6Y9K9Q8FkyxeT6WaTDNnE-GywfnJxIripi_eced-KX9L-rwXjW1RVLQ8ONGb0UDcPDs7Zlc1xFeuCpVobtPSq4is.jpg?r=a6b",
       "match": 62,
       "certificate": "U/A 13+",
@@ -507,7 +749,11 @@
       "id": 11,
       "title": "Extraction",
       "category": "Hollywood",
-      "quality": ["Violent", "Gritty", "Exciting"],
+      "quality": [
+        "Violent",
+        "Gritty",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYKgmIMrogNDAZp4LT4s5Cuvq7y-uqcVW0TJB9EAdJtFYNabC7Z7qnE-AhG7cVhEjfZFeWxEogBKNvsCRltY5cbNMdaF7TGNh6-8c8WuUGzO4NPDe7Q3fiQEX3cB.jpg?r=1f7",
       "match": 98,
       "certificate": "A",
@@ -517,7 +763,11 @@
       "id": 12,
       "title": "Red Notice",
       "category": "Hollywood",
-      "quality": ["Slick", "Exciting", "Action Comedy"],
+      "quality": [
+        "Slick",
+        "Exciting",
+        "Action Comedy"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT7cxeqvkCmiZdsFX_9FtqAPxSAG4FZFkIUWMpA0vPGBKcRNsolkH3lhuQ50RJ1ZwfaYG28U1aurhI33tglVfv4lA4jG-a4R5iAk5mWjXArGdYrQcsfiB3JSLBL4.jpg?r=a7a",
       "match": 96,
       "certificate": "U/A 13+",
@@ -527,7 +777,11 @@
       "id": 13,
       "title": "Joker",
       "category": "Hollywood",
-      "quality": ["Violent", "Psychological", "Gritty"],
+      "quality": [
+        "Violent",
+        "Psychological",
+        "Gritty"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX3QuiQkmSDEXcFUd4XA1Jok-5U9gz7SE5Oaj2HppEOvBcSRuVll2o4QSp1VveGV4zZ9CvqUPwQzWjssyZKTLXPQ3jw.jpg?r=992",
       "match": 78,
       "certificate": "A",
@@ -537,7 +791,11 @@
       "id": 14,
       "title": "Bird Box",
       "category": "Hollywood",
-      "quality": ["Chilling", "Ominous", "Psychological"],
+      "quality": [
+        "Chilling",
+        "Ominous",
+        "Psychological"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbHqdOLoMKNY75zb9o5j1AUNNIYpJANgoho3as6A3d-p0NPQ3L7trIXCdQxaggBnVxD1doHk74-bVZcAFn7W2aJga_CkBUWFIFql8rlc1fU6InqQR4WzWoiceDvs.jpg?r=1a4",
       "match": 77,
       "certificate": "A",
@@ -547,7 +805,11 @@
       "id": 15,
       "title": "Hangover",
       "category": "Hollywood",
-      "quality": ["Raunchy", "Comedy", "Ensemble"],
+      "quality": [
+        "Raunchy",
+        "Comedy",
+        "Ensemble"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABd4zzoMVb745HNGyfFWzW3O_GN1BxGCcLaYJQsrpNTmlVoNxqCNZjosKlUgUvv9dYsbFboo_WT7XgrJ3tcIMD1-qPXE.jpg?r=fb2",
       "match": 59,
       "certificate": "A",
@@ -557,7 +819,11 @@
       "id": 16,
       "title": "Now You See Me",
       "category": "Hollywood",
-      "quality": ["Slick", "Suspenseful", "Exciting"],
+      "quality": [
+        "Slick",
+        "Suspenseful",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfR2dIkfk4tu-eFXlSvNto2-f5uF8g9o12B-H8cIHoRQHt4GiQ1sCKUwFYXauwRP3IKIFQAZHlcg8Rr-wxkqhcidLBU.jpg?r=2f0",
       "match": 71,
       "certificate": "U/A 13+",
@@ -567,7 +833,11 @@
       "id": 17,
       "title": "Munich",
       "category": "Hollywood",
-      "quality": ["Thriller", "Drama", "Spies"],
+      "quality": [
+        "Thriller",
+        "Drama",
+        "Spies"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWeUWT6sbGCcql6c3amKH3LFsJofxMP2IKefe9UoIF0OQ-4ebtDeiDJZCXoPZfvNebum75X2qruPva0CJz651OFGnM0.jpg?r=e33",
       "match": 61,
       "certificate": "A",
@@ -577,7 +847,11 @@
       "id": 18,
       "title": "The White Tiger",
       "category": "Hollywood",
-      "quality": ["Offbeat", "Provocative", "Gritty"],
+      "quality": [
+        "Offbeat",
+        "Provocative",
+        "Gritty"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQcNQFIYJHzcQkb3BQi8jwVN9ySUlNwnPwSW15szNOvLWttiMtHimLl2ZPKqC39wsCQucS5aLtUIFX--ygCrP35rTfhknG8IibgHi9X9WiEvbnQ_mZofp4UMCu8O.jpg?r=4ad",
       "match": 89,
       "certificate": "U/A 16+",
@@ -587,7 +861,11 @@
       "id": 19,
       "title": "The Old Guard",
       "category": "Hollywood",
-      "quality": ["Gritty", "Exciting", "Action Thriller"],
+      "quality": [
+        "Gritty",
+        "Exciting",
+        "Action Thriller"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABccdNJhrfpWzHB1PMzEg27DVeqg7ub3q07HxWfA5rVWsONXmY9tcp3BA2vwwVjS0XMiWR3h_GzzDoD4ThAATMbU4f5fQekIfWLdgjXztnkeMaDIiRh1g0zZwEdwm.jpg?r=c52",
       "match": 91,
       "certificate": "A",
@@ -597,7 +875,11 @@
       "id": 20,
       "title": "Central Intelligence",
       "category": "Hollywood",
-      "quality": ["Explosive", "Goofy", "Exciting"],
+      "quality": [
+        "Explosive",
+        "Goofy",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVAYCj0HKAp6iyfV1ZbicRGuePvinWIgF5JRvrgMEa0pz9v2ZRsmfpbfgTsEGV-zL37Aa9j5V-P7fU1pALOUNa5ZyVg.jpg?r=d81",
       "match": 91,
       "certificate": "U/A 16+",
@@ -607,7 +889,11 @@
       "id": 21,
       "title": "A Silent Voice : The Movie",
       "category": "Anime",
-      "quality": ["Sentimental", "Emotional", "Drama Anime"],
+      "quality": [
+        "Sentimental",
+        "Emotional",
+        "Drama Anime"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeJFY03NljLhmA0FMZTFrSLn9SEyp9jyhlSoCSU41t7yXrgfKoYKpJdpOsomP12gSHxJluOO0Epvwn2B44v5-ByRYdA.jpg?r=efb",
       "match": 89,
       "certificate": "U/A 16+",
@@ -617,7 +903,11 @@
       "id": 22,
       "title": "New Gods : Nezha Reborn",
       "category": "Anime",
-      "quality": ["Adrenaline Rush", "Explosive", "Rousing"],
+      "quality": [
+        "Adrenaline Rush",
+        "Explosive",
+        "Rousing"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT_BpeTk2URbNytmQlsjRBvh1bsGE3jrzR_-bFLTHKqDnFYYVR-xuuZjeovgx-22W6199x0YiUKwI8jIFAGDrZv-0Eche60c2iGDZlJy1iqJaPPejYjv9kYrQ147.jpg?r=f17",
       "match": 96,
       "certificate": "U/A 13+",
@@ -627,7 +917,11 @@
       "id": 23,
       "title": "Princess Mononoke",
       "category": "Anime",
-      "quality": ["Anime Movies", "Fantasy Anime", "Action Anime"],
+      "quality": [
+        "Anime Movies",
+        "Fantasy Anime",
+        "Action Anime"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXOmwTOh2TXwHK4k6O1961AOyquy2XfDg2RP-M7UPMKorLX_6WQX6wp0KfK4VzpF9Ic65TzK275qm9z_PrjZFJAry5I.jpg?r=8e3",
       "match": 71,
       "certificate": "U/A 13+",
@@ -637,7 +931,11 @@
       "id": 24,
       "title": "A Whisker Away",
       "category": "Anime",
-      "quality": ["Charming", "Heartfelt", "Feel Good"],
+      "quality": [
+        "Charming",
+        "Heartfelt",
+        "Feel Good"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABetcWkGikSLjMEHEXXu90Czs_pSiBwgTRzO_MTT_lktHiTOgZLE70hAEoTO1nd-dZ0kyZ778CaXWEyAAiL6OsfJM1_QVmUTxHJsTvInjG2MR9OHTGqAtMPWraS8g.jpg?r=192",
       "match": 75,
       "certificate": "U/A 7+",
@@ -647,7 +945,11 @@
       "id": 25,
       "title": "Batman Ninja",
       "category": "Anime",
-      "quality": ["Exciting", "Superhero", "Anime Movies"],
+      "quality": [
+        "Exciting",
+        "Superhero",
+        "Anime Movies"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYt-cjTZP0RQWd_bvRVBbFspoy_ZTc_hKOOsTWLM0nLhz7o79g4pFcdukA_Nrff46E2Cu-qc6qTzJuktaIYmh8Y9PFU.jpg?r=c04",
       "match": 91,
       "certificate": "U/A 13+",
@@ -657,7 +959,11 @@
       "id": 26,
       "title": "When Marnie Was There",
       "category": "Anime",
-      "quality": ["Understated", "Drama Anime", "Anime Movies"],
+      "quality": [
+        "Understated",
+        "Drama Anime",
+        "Anime Movies"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW2qRZZuVYbrLts6XnPtfcPUTIWPv1bHCe35YryYuEdNdb4vBtFTFZ_Gijs8yeQf2P_3qKpGNrlEAH9hM_GctAQIqdU.jpg?r=7a0",
       "match": 88,
       "certificate": "U/A 7+",
@@ -667,7 +973,11 @@
       "id": 27,
       "title": "From Up On Poppy Hill",
       "category": "Anime",
-      "quality": ["Nostalgic", "Drama Anime", "Anime Movies"],
+      "quality": [
+        "Nostalgic",
+        "Drama Anime",
+        "Anime Movies"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUltaPfUCBC5LIAKwWeLPsPAOJV0hadAeSRt29CaCWQbTL60l3xdpClw3GS2UsVgiSH6iKwgp-zrxbFh5et0YnqgOHE.jpg?r=95b",
       "match": 85,
       "certificate": "U/A 7+",
@@ -677,7 +987,11 @@
       "id": 28,
       "title": "Garden Of Words",
       "category": "Anime",
-      "quality": ["Understated", "Intimate", "Romantic Anime"],
+      "quality": [
+        "Understated",
+        "Intimate",
+        "Romantic Anime"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWc2IALTvdnFEYik-HQGdtENRwDrIw2DFYdVZdaY8VmnICmfs67eWfbvxOb8rsyTyL5HYTBsp-SNoAl8zsfQnRVHUsU.jpg?r=e2f",
       "match": 91,
       "certificate": "U/A 13+",
@@ -687,7 +1001,11 @@
       "id": 29,
       "title": "5 Centimeter Per Second",
       "category": "Anime",
-      "quality": ["Nostalgic", "Intimate", "Emotional"],
+      "quality": [
+        "Nostalgic",
+        "Intimate",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT4PCquF7AjXVwEI4OsA3iH3REsibGfX99A2xR-xCQF3aLdFn0YPsWtr1BEeYVqlnrX7H9pwGfy80yFuDICGj7W9kc8.jpg?r=53f",
       "match": 93,
       "certificate": "U/A 7+",
@@ -697,7 +1015,11 @@
       "id": 30,
       "title": "The Wind Rises",
       "category": "Anime",
-      "quality": ["Nostalgic", "Emotional", "Drama Anime"],
+      "quality": [
+        "Nostalgic",
+        "Emotional",
+        "Drama Anime"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbCpTyGssJZ4O4eAVUrDPD_1TuUBYgW9RAFtKbQlZkN4QOyuMW9HrT0ktGnkLeT-86ejHQWVgJx4__OQqi4LAZocg-E.jpg?r=685",
       "match": 86,
       "certificate": "U/A 13+",
@@ -707,7 +1029,11 @@
       "id": 31,
       "title": "Spider-Man: Into The Spider-Verse",
       "category": "AwardWinning",
-      "quality": ["Slick", "Suspenseful", "Exciting"],
+      "quality": [
+        "Slick",
+        "Suspenseful",
+        "Exciting"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeCtg0kdd3OcvAXeFXmysIXv--iM44DqEXiXcTzbeW4IrqlnN7Alt1u7kCUuCbcE-gwhCAH5DmhlZs2UXhYLPX2LJT8.jpg?r=efe",
       "match": 70,
       "certificate": "U/A 13+",
@@ -717,7 +1043,11 @@
       "id": 32,
       "title": "Don't Look Up",
       "category": "AwardWinning",
-      "quality": ["Offbeat", "Provocative", "Witty"],
+      "quality": [
+        "Offbeat",
+        "Provocative",
+        "Witty"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b",
       "match": 68,
       "certificate": "A",
@@ -727,7 +1057,11 @@
       "id": 33,
       "title": "The Green Mile",
       "category": "AwardWinning",
-      "quality": ["Inspiring", "Emotional", "Tear Jerker"],
+      "quality": [
+        "Inspiring",
+        "Emotional",
+        "Tear Jerker"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaDLyO6gnu5rElJE1PvjrA1VSRO4Fo1AcsGyFP2OufWKtn79z5syE4oQXVY4umoS4zxvPakkw--UOiDQlCrmml6_tdI.jpg?r=88c",
       "match": 90,
       "certificate": "A",
@@ -737,7 +1071,11 @@
       "id": 34,
       "title": "Schindler's List",
       "category": "AwardWinning",
-      "quality": ["Violent", "Dark", "Emotional"],
+      "quality": [
+        "Violent",
+        "Dark",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT1-jVmYRRQUmKsuXljPkCSh_sfiP5-4WjKwmWsLP4jp5UPT7XpAslkvYmhiOalrbd6mMg05sf5hH17HDghDgeivUiw.jpg?r=379",
       "match": 85,
       "certificate": "A",
@@ -747,7 +1085,11 @@
       "id": 35,
       "title": "The Lost Daughter",
       "category": "AwardWinning",
-      "quality": ["Cerebral", "Understated", "Intimate"],
+      "quality": [
+        "Cerebral",
+        "Understated",
+        "Intimate"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRIkOEqo8FF7Tk8OxIcl0Nh5wTRSTSwLs2uMHGTJfgXdNnYsX0VTFM1WGSkZydr1oizA7KyR1shSm2SEWa4dOr674H1jXjPEBJU5mBkFQ2aJA6DjT6gCTSayOwbv.jpg?r=58f",
       "match": 83,
       "certificate": "A",
@@ -757,7 +1099,11 @@
       "id": 36,
       "title": "The Shawshank Redemption",
       "category": "AwardWinning",
-      "quality": ["Inspiring", "Emotional", "Drama"],
+      "quality": [
+        "Inspiring",
+        "Emotional",
+        "Drama"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZqsYL2_Z6pAwERmihh5QMoXyVoY30yHbVSrahcTirW6lEd-xpbyD6CT_B-DfST2kejjtdDRq3YG_oP-ZKScyGPBZvA.jpg?r=333",
       "match": 80,
       "certificate": "A",
@@ -767,7 +1113,11 @@
       "id": 37,
       "title": "The Blind Side",
       "category": "AwardWinning",
-      "quality": ["Inspiring", "Hearfelt", "Feel-Good"],
+      "quality": [
+        "Inspiring",
+        "Hearfelt",
+        "Feel-Good"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQcC3GpR7ULIxOKcrVt7dQGKyPVmot-tDB-SWO8JXsW225qGHE2erP1XLLaZfvu_U24QgW6h-i-mAGQYA3h-9fYTaDg.jpg?r=c5f",
       "match": 88,
       "certificate": "U/A 13+",
@@ -777,7 +1127,11 @@
       "id": 38,
       "title": "Dil Dhadakne Do",
       "category": "AwardWinning",
-      "quality": ["Charming", "Feel-Good", "Emotional"],
+      "quality": [
+        "Charming",
+        "Feel-Good",
+        "Emotional"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZCWUcjkYmOc9OieIh1Oa1Q8Za6jiT6L2pvnRBhiicibXdjWUcP5sLimN-jJpid_PEeauf6BV1jaQGf0-REEhRgGYoE.jpg?r=de8",
       "match": 84,
       "certificate": "U/A 16+",
@@ -787,7 +1141,11 @@
       "id": 39,
       "title": "The Lunchbox",
       "category": "AwardWinning",
-      "quality": ["Understated", "Intimate", "Romantic"],
+      "quality": [
+        "Understated",
+        "Intimate",
+        "Romantic"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABajJgBzy4hL6aEkyMNZAkSf23jiEg1Sjpb9z4fxPRfsd4tsX2IKh-r6bzlo0FcJ7UieLDLIrj_LcuxAXuUnv2Mq7GFc.jpg?r=fe5",
       "match": 73,
       "certificate": "U/A 13+",
@@ -797,7 +1155,11 @@
       "id": 40,
       "title": "Masaan",
       "category": "AwardWinning",
-      "quality": ["Understated", "Emotional", "Hidden Gem"],
+      "quality": [
+        "Understated",
+        "Emotional",
+        "Hidden Gem"
+      ],
       "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfEDWuJvgw0s4tqIc74AkE4trGLnjTThhxXMK4OmBZ9NTAlK3bEGf7cIKZWXnJBdu5WGoDIuPSUcnMIdagXJULVNYIY.jpg?r=140",
       "match": 59,
       "certificate": "A",
@@ -816,13 +1178,19 @@
       "certificate": "U/A 16+",
       "seasons": 4,
       "year": 2021,
-      "cast": ["Dhruv Sehgal", "Mithila Palkar"],
+      "cast": [
+        "Dhruv Sehgal",
+        "Mithila Palkar"
+      ],
       "genres": [
         "Romantic TV Dramas",
         "Romantic TV Comedies",
         "Hindi-Language TV Shows"
       ],
-      "quality": ["Intimate", "Romantic"]
+      "quality": [
+        "Intimate",
+        "Romantic"
+      ]
     },
     {
       "id": 2,
@@ -835,13 +1203,22 @@
       "certificate": "A",
       "seasons": 1,
       "year": 2020,
-      "cast": ["Prajakta Koli", "Rohit Saraf", "Vihaan Samat", "more"],
+      "cast": [
+        "Prajakta Koli",
+        "Rohit Saraf",
+        "Vihaan Samat",
+        "more"
+      ],
       "genres": [
         "Romantic TV Dramas",
         "Romantic TV Comedies",
         "Hindi-Language TV Shows"
       ],
-      "quality": ["Quirky", "Heartfelt", "Romantic"]
+      "quality": [
+        "Quirky",
+        "Heartfelt",
+        "Romantic"
+      ]
     },
     {
       "id": 3,
@@ -854,9 +1231,21 @@
       "certificate": "A",
       "seasons": 6,
       "year": 2016,
-      "cast": ["Tyler Pose", "Crystal Reed", "Dylan O'Brien", "more"],
-      "genres": ["Teen TV Shows", "TV Dramas", "TV Horror"],
-      "quality": ["Suspenseful", "Exciting"]
+      "cast": [
+        "Tyler Pose",
+        "Crystal Reed",
+        "Dylan O'Brien",
+        "more"
+      ],
+      "genres": [
+        "Teen TV Shows",
+        "TV Dramas",
+        "TV Horror"
+      ],
+      "quality": [
+        "Suspenseful",
+        "Exciting"
+      ]
     },
     {
       "id": 4,
@@ -869,9 +1258,19 @@
       "certificate": "U/A 16+",
       "seasons": 1,
       "year": 2021,
-      "cast": ["Police", "more"],
-      "genres": ["Social & Cultural Docs", "Docuseries", "Crime TV Shows"],
-      "quality": ["Gritty", "Dark"]
+      "cast": [
+        "Police",
+        "more"
+      ],
+      "genres": [
+        "Social & Cultural Docs",
+        "Docuseries",
+        "Crime TV Shows"
+      ],
+      "quality": [
+        "Gritty",
+        "Dark"
+      ]
     }
   ],
   "banners-mo": [
@@ -886,13 +1285,22 @@
       "certificate": "U/A 16+",
       "duration": "2h 50m",
       "year": 2019,
-      "cast": ["Arjun Kapoor", "Sanjay Dutt", "Kriti Sanon", "more"],
+      "cast": [
+        "Arjun Kapoor",
+        "Sanjay Dutt",
+        "Kriti Sanon",
+        "more"
+      ],
       "genres": [
         "Military Movies",
         "Movies Based on Real Life",
         "Hindi-Language Movies"
       ],
-      "quality": ["Emotional", "Exciting", "Romantic"]
+      "quality": [
+        "Emotional",
+        "Exciting",
+        "Romantic"
+      ]
     },
     {
       "id": 2,
@@ -911,8 +1319,16 @@
         "Priyanka Chopra Jonas",
         "more"
       ],
-      "genres": ["Social Issues Dramas", "US Movies", "Movies Based On Books"],
-      "quality": ["Offbeat", "Provocative", "Gritty"]
+      "genres": [
+        "Social Issues Dramas",
+        "US Movies",
+        "Movies Based On Books"
+      ],
+      "quality": [
+        "Offbeat",
+        "Provocative",
+        "Gritty"
+      ]
     },
     {
       "id": 3,
@@ -925,9 +1341,21 @@
       "certificate": "U/A 13+",
       "duration": "2h 5m",
       "year": 2001,
-      "cast": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki", "more"],
-      "genres": ["Japanese", "Family Movies", "Anime Movies"],
-      "quality": ["Heartfelt", "Feel-Good"]
+      "cast": [
+        "Rumi Hiiragi",
+        "Miyu Irino",
+        "Mari Natsuki",
+        "more"
+      ],
+      "genres": [
+        "Japanese",
+        "Family Movies",
+        "Anime Movies"
+      ],
+      "quality": [
+        "Heartfelt",
+        "Feel-Good"
+      ]
     },
     {
       "id": 4,
@@ -940,13 +1368,21 @@
       "certificate": "U/A 16+",
       "duration": "2h 5m",
       "year": 2019,
-      "cast": ["Ayushmann Khurrana", "Nassar", "Manoj Pahwa", "more"],
+      "cast": [
+        "Ayushmann Khurrana",
+        "Nassar",
+        "Manoj Pahwa",
+        "more"
+      ],
       "genres": [
         "Social Issues Dramas",
         "Hindi-Language Movies",
         "Crime Movies"
       ],
-      "quality": ["Gritty", "Dark"]
+      "quality": [
+        "Gritty",
+        "Dark"
+      ]
     }
   ]
 }

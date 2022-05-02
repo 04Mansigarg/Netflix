@@ -1,9 +1,11 @@
 import React from "react";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 import Navbar from "../component/Navbar";
-import Navbar2 from "../component/Navbar2";
+import Navbar3 from "../component/Navbar3";
+import { useNavigate } from "react-router-dom";
 
 export const MoviesBanner = () => {
+  const navigate = useNavigate()
   const [obj, setObj] = React.useState({
     id: 1,
     title: "Panipat : The Great Betrayal",
@@ -31,7 +33,7 @@ export const MoviesBanner = () => {
     let id = 2;
     setInterval(() => {
       console.log(id);
-      fetch(`http://localhost:3000/banners-mo/${id}`)
+      fetch(`https://netflixd.herokuapp.com/banners-mo/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));
@@ -40,7 +42,7 @@ export const MoviesBanner = () => {
       } else {
         id++;
       }
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (
@@ -54,7 +56,7 @@ export const MoviesBanner = () => {
       }}
     >
       <Navbar />
-      <Navbar2 />
+      <Navbar3 />
       <div style={{ width: "35%" }}>
         <img
           style={{ marginTop: "30%", marginLeft: "15%", width: "100%" }}
@@ -86,6 +88,7 @@ export const MoviesBanner = () => {
           }}
         >
           <button
+            onClick={() => navigate("/player")}
             style={{
               backgroundColor: "rgba(255,255,255,0.75)",
               paddingLeft: "1rem",

@@ -6,9 +6,13 @@ import EditIcon from "@mui/icons-material/Edit";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { auth, search } from "../Redux-Store/Home/Action";
 
 const Navbar = () => {
+  const search_item = useSelector(state => state.search_item)
   const navigate = useNavigate();
+  const dispatch = useDispatch()
 
   return (
     <>
@@ -20,7 +24,7 @@ const Navbar = () => {
                 navigate("../homepage");
               }}
             >
-              <img src="/logo.png" alt="" className={styles.logoimg} />
+              <img src="https://cdn.cookielaw.org/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png" alt="" className={styles.logoimg} />
             </li>
             <li
               onClick={() => {
@@ -53,10 +57,13 @@ const Navbar = () => {
         <span className={styles.span2}>
           <ul>
             <li>
-              <SearchIcon />
+              <SearchIcon onClick={() => {
+                navigate(`/search/${search_item}`)
+                dispatch(search(""))
+              }} />
             </li>
             <li>
-              <input type="text" placeholder="Titles, people, genres" />
+              <input type="text" placeholder="Titles, people, genres" value={search_item} onChange={(e) => dispatch(search(e.currentTarget.value))} />
             </li>
             <li>
               <div className={styles.notifContainer}>
@@ -144,7 +151,8 @@ const Navbar = () => {
                   <hr />
                   <div
                     onClick={() => {
-                      navigate("../signout");
+                      navigate("/");
+                      dispatch(auth(false))
                     }}
                     className={styles.signout}
                   >

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../css/SignUp2.module.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FooterComp } from "./FooterComp";
 import { useDispatch, useSelector } from "react-redux";
 import { get_email, get_password } from "../Redux-Store/Home/Action";
@@ -28,9 +28,13 @@ const SignUp2 = () => {
             />
           </a>
         </div>
+<<<<<<< HEAD
         <a className={styles.signbtn} href="/">
           Sign In
         </a>
+=======
+        <Link style={{ textDecoration: "none" }} to="/login">Sign In</Link>
+>>>>>>> main
       </div>
       <div className={styles.middlebox}>
         <p>STEP 1 OF 3</p>
