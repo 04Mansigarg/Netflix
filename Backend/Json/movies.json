@@ -1,0 +1,562 @@
+ [
+    {
+      "id": 1,
+      "title": "83",
+      "category": "Bollywood",
+      "quality": [
+        "Rousing",
+        "Inspiring",
+        "Heartfelt"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc6iNym2D7VZFoLCN1rOQ4e0c2VKDpOWxqIyT6YJR-nYaQeOGokfxkwmT2C-goQcy25GH3atsW-4USvP4gYHCKCOusmyQ8VisSuQQa3A6_zGA_vV2pcG0ICdiW0ieUmMI9oRhu4L4FiyS-bOKwKUOPrGYfQ.jpg?r=4f8",
+      "match": 98,
+      "certificate": "U/A 13+",
+      "duration": "2h 40m"
+    },
+    {
+      "id": 2,
+      "title": "Badhai Do",
+      "category": "Bollywood",
+      "quality": [
+        "Quirky",
+        "Emotional",
+        "Romantic"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABebeVm00XKLG2-pozOiy8SsaCJvkVXembSEGuiOany8KGL0rvWUrp-oXPvixr8R8Fr-Lfd5aW3ru1MWPksDenfy1Vug-UuJzB7tihFpMQ--pqHKN7IxUDBA-lgSXDKS_9ZAHuZktS0IFm9dA6p3hvBai5P8.jpg?r=947",
+      "match": 97,
+      "certificate": "U/A 13+",
+      "duration": "2h 27m"
+    },
+    {
+      "id": 3,
+      "title": "Sooryavanshi",
+      "category": "Bollywood",
+      "quality": [
+        "Explosive",
+        "Slick",
+        "Exciting"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRMs8Q276sJiQGz-hThwGZNCGax--blqONDRbwHu2_Fs39P-hYu7gWJnoTdOQCu1B_uN0hwQZ__HdCB6h6bHHX2l-xU.jpg?r=947",
+      "match": 97,
+      "certificate": "U/A 16+",
+      "duration": "2h 23m"
+    },
+    {
+      "id": 4,
+      "title": "Kabir Singh",
+      "category": "Bollywood",
+      "quality": [
+        "Emotional",
+        "Romantic",
+        "Drama"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbVXpYoO2VANuyepAI44ekKYhybvZZCla66Xc7WMSFPUId2rEeYRMdCnyJRV0smWB7_1_XOKrISkXg-arDr6zXlPRlE.jpg?r=e37",
+      "match": 86,
+      "certificate": "A",
+      "duration": "2h 51m"
+    },
+    {
+      "id": 5,
+      "title": "3 Idiots",
+      "category": "Bollywood",
+      "quality": [
+        "Sentimental",
+        "Emotional",
+        "Dramedy"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUvxscdKQnXm4EWMwH7uDp82J8LiRdJHY_hB75MbZRcRewZFPEWKWu3sBqssRRWExhKLEltb0tLvr91gsWUmUTHGLNo.jpg?r=ba2",
+      "match": 84,
+      "certificate": "U/A 16+",
+      "duration": "2h 43m"
+    },
+    {
+      "id": 6,
+      "title": "83",
+      "category": "Bollywood",
+      "quality": [
+        "Rousing",
+        "Inspiring",
+        "Heartfelt"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABc6iNym2D7VZFoLCN1rOQ4e0c2VKDpOWxqIyT6YJR-nYaQeOGokfxkwmT2C-goQcy25GH3atsW-4USvP4gYHCKCOusmyQ8VisSuQQa3A6_zGA_vV2pcG0ICdiW0ieUmMI9oRhu4L4FiyS-bOKwKUOPrGYfQ.jpg?r=4f8",
+      "match": 98,
+      "certificate": "U/A 13+",
+      "duration": "2h 40m"
+    },
+    {
+      "id": 7,
+      "title": "Talaash",
+      "category": "Bollywood",
+      "quality": [
+        "Psychological",
+        "Gritty",
+        "Suspenseful"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTom3ABRTVxndigHXAn7srms082ezC7VNtBwpOVtLI8Dgmrh3r1REneKdzBx_LLJDlN2fIpFjG5ZGipeQJOdbTZ-58w.jpg?r=f0a",
+      "match": 64,
+      "certificate": "A",
+      "duration": "2h 19m"
+    },
+    {
+      "id": 8,
+      "title": "Karthik Calling Karthik",
+      "category": "Bollywood",
+      "quality": [
+        "Psychological",
+        "Thriller",
+        "Drama"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdm16DLWE8n1iMqfsxhmER7F77HxgJBWpKNGfTYzHSLMcqQtCp4ekdR-suztn3TU3NQ_8c1VLlYMKbuFgyRDiZNp5w8.jpg?r=cc8",
+      "match": 88,
+      "certificate": "U/A 16+",
+      "duration": "2h 14m"
+    },
+    {
+      "id": 9,
+      "title": "Taare Zameen Par",
+      "category": "Bollywood",
+      "quality": [
+        "Inspiring",
+        "Heartfelt",
+        "Feel-Good"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABcWwv3YR9ZRJkGWOB8kLSMDFp3tA-b06WRuUbeL1KRcy1yPRcWsllu7YuXKuDsX8JMneMFj1ZrVYPwPaoCd-qiUZPLc.jpg?r=846",
+      "match": 81,
+      "certificate": "U/A 13+",
+      "duration": "2h 42m"
+    },
+    {
+      "id": 10,
+      "title": "Stree",
+      "category": "Bollywood",
+      "quality": [
+        "Suspenseful",
+        "Horror Comedy",
+        "Independent"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUD6Y9K9Q8FkyxeT6WaTDNnE-GywfnJxIripi_eced-KX9L-rwXjW1RVLQ8ONGb0UDcPDs7Zlc1xFeuCpVobtPSq4is.jpg?r=a6b",
+      "match": 62,
+      "certificate": "U/A 13+",
+      "duration": "2h 06m"
+    },
+    {
+      "id": 11,
+      "title": "Extraction",
+      "category": "Hollywood",
+      "quality": [
+        "Violent",
+        "Gritty",
+        "Exciting"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYKgmIMrogNDAZp4LT4s5Cuvq7y-uqcVW0TJB9EAdJtFYNabC7Z7qnE-AhG7cVhEjfZFeWxEogBKNvsCRltY5cbNMdaF7TGNh6-8c8WuUGzO4NPDe7Q3fiQEX3cB.jpg?r=1f7",
+      "match": 98,
+      "certificate": "A",
+      "duration": "1h 57m"
+    },
+    {
+      "id": 12,
+      "title": "Red Notice",
+      "category": "Hollywood",
+      "quality": [
+        "Slick",
+        "Exciting",
+        "Action Comedy"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT7cxeqvkCmiZdsFX_9FtqAPxSAG4FZFkIUWMpA0vPGBKcRNsolkH3lhuQ50RJ1ZwfaYG28U1aurhI33tglVfv4lA4jG-a4R5iAk5mWjXArGdYrQcsfiB3JSLBL4.jpg?r=a7a",
+      "match": 96,
+      "certificate": "U/A 13+",
+      "duration": "1h 57m"
+    },
+    {
+      "id": 13,
+      "title": "Joker",
+      "category": "Hollywood",
+      "quality": [
+        "Violent",
+        "Psychological",
+        "Gritty"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABX3QuiQkmSDEXcFUd4XA1Jok-5U9gz7SE5Oaj2HppEOvBcSRuVll2o4QSp1VveGV4zZ9CvqUPwQzWjssyZKTLXPQ3jw.jpg?r=992",
+      "match": 78,
+      "certificate": "A",
+      "duration": "2h 01m"
+    },
+    {
+      "id": 14,
+      "title": "Bird Box",
+      "category": "Hollywood",
+      "quality": [
+        "Chilling",
+        "Ominous",
+        "Psychological"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbHqdOLoMKNY75zb9o5j1AUNNIYpJANgoho3as6A3d-p0NPQ3L7trIXCdQxaggBnVxD1doHk74-bVZcAFn7W2aJga_CkBUWFIFql8rlc1fU6InqQR4WzWoiceDvs.jpg?r=1a4",
+      "match": 77,
+      "certificate": "A",
+      "duration": "2h 4m"
+    },
+    {
+      "id": 15,
+      "title": "Hangover",
+      "category": "Hollywood",
+      "quality": [
+        "Raunchy",
+        "Comedy",
+        "Ensemble"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABd4zzoMVb745HNGyfFWzW3O_GN1BxGCcLaYJQsrpNTmlVoNxqCNZjosKlUgUvv9dYsbFboo_WT7XgrJ3tcIMD1-qPXE.jpg?r=fb2",
+      "match": 59,
+      "certificate": "A",
+      "duration": "1h 39m"
+    },
+    {
+      "id": 16,
+      "title": "Now You See Me",
+      "category": "Hollywood",
+      "quality": [
+        "Slick",
+        "Suspenseful",
+        "Exciting"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfR2dIkfk4tu-eFXlSvNto2-f5uF8g9o12B-H8cIHoRQHt4GiQ1sCKUwFYXauwRP3IKIFQAZHlcg8Rr-wxkqhcidLBU.jpg?r=2f0",
+      "match": 71,
+      "certificate": "U/A 13+",
+      "duration": "1h 55m"
+    },
+    {
+      "id": 17,
+      "title": "Munich",
+      "category": "Hollywood",
+      "quality": [
+        "Thriller",
+        "Drama",
+        "Spies"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWeUWT6sbGCcql6c3amKH3LFsJofxMP2IKefe9UoIF0OQ-4ebtDeiDJZCXoPZfvNebum75X2qruPva0CJz651OFGnM0.jpg?r=e33",
+      "match": 61,
+      "certificate": "A",
+      "duration": "2h 44m"
+    },
+    {
+      "id": 18,
+      "title": "The White Tiger",
+      "category": "Hollywood",
+      "quality": [
+        "Offbeat",
+        "Provocative",
+        "Gritty"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQcNQFIYJHzcQkb3BQi8jwVN9ySUlNwnPwSW15szNOvLWttiMtHimLl2ZPKqC39wsCQucS5aLtUIFX--ygCrP35rTfhknG8IibgHi9X9WiEvbnQ_mZofp4UMCu8O.jpg?r=4ad",
+      "match": 89,
+      "certificate": "U/A 16+",
+      "duration": "2h 5m"
+    },
+    {
+      "id": 19,
+      "title": "The Old Guard",
+      "category": "Hollywood",
+      "quality": [
+        "Gritty",
+        "Exciting",
+        "Action Thriller"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABccdNJhrfpWzHB1PMzEg27DVeqg7ub3q07HxWfA5rVWsONXmY9tcp3BA2vwwVjS0XMiWR3h_GzzDoD4ThAATMbU4f5fQekIfWLdgjXztnkeMaDIiRh1g0zZwEdwm.jpg?r=c52",
+      "match": 91,
+      "certificate": "A",
+      "duration": "2h 5m"
+    },
+    {
+      "id": 20,
+      "title": "Central Intelligence",
+      "category": "Hollywood",
+      "quality": [
+        "Explosive",
+        "Goofy",
+        "Exciting"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVAYCj0HKAp6iyfV1ZbicRGuePvinWIgF5JRvrgMEa0pz9v2ZRsmfpbfgTsEGV-zL37Aa9j5V-P7fU1pALOUNa5ZyVg.jpg?r=d81",
+      "match": 91,
+      "certificate": "U/A 16+",
+      "duration": "1h 47m"
+    },
+    {
+      "id": 21,
+      "title": "A Silent Voice : The Movie",
+      "category": "Anime",
+      "quality": [
+        "Sentimental",
+        "Emotional",
+        "Drama Anime"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeJFY03NljLhmA0FMZTFrSLn9SEyp9jyhlSoCSU41t7yXrgfKoYKpJdpOsomP12gSHxJluOO0Epvwn2B44v5-ByRYdA.jpg?r=efb",
+      "match": 89,
+      "certificate": "U/A 16+",
+      "duration": "2h 9m"
+    },
+    {
+      "id": 22,
+      "title": "New Gods : Nezha Reborn",
+      "category": "Anime",
+      "quality": [
+        "Adrenaline Rush",
+        "Explosive",
+        "Rousing"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT_BpeTk2URbNytmQlsjRBvh1bsGE3jrzR_-bFLTHKqDnFYYVR-xuuZjeovgx-22W6199x0YiUKwI8jIFAGDrZv-0Eche60c2iGDZlJy1iqJaPPejYjv9kYrQ147.jpg?r=f17",
+      "match": 96,
+      "certificate": "U/A 13+",
+      "duration": "1h 50m"
+    },
+    {
+      "id": 23,
+      "title": "Princess Mononoke",
+      "category": "Anime",
+      "quality": [
+        "Anime Movies",
+        "Fantasy Anime",
+        "Action Anime"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABXOmwTOh2TXwHK4k6O1961AOyquy2XfDg2RP-M7UPMKorLX_6WQX6wp0KfK4VzpF9Ic65TzK275qm9z_PrjZFJAry5I.jpg?r=8e3",
+      "match": 71,
+      "certificate": "U/A 13+",
+      "duration": "2h 14m"
+    },
+    {
+      "id": 24,
+      "title": "A Whisker Away",
+      "category": "Anime",
+      "quality": [
+        "Charming",
+        "Heartfelt",
+        "Feel Good"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABetcWkGikSLjMEHEXXu90Czs_pSiBwgTRzO_MTT_lktHiTOgZLE70hAEoTO1nd-dZ0kyZ778CaXWEyAAiL6OsfJM1_QVmUTxHJsTvInjG2MR9OHTGqAtMPWraS8g.jpg?r=192",
+      "match": 75,
+      "certificate": "U/A 7+",
+      "duration": "1h 45m"
+    },
+    {
+      "id": 25,
+      "title": "Batman Ninja",
+      "category": "Anime",
+      "quality": [
+        "Exciting",
+        "Superhero",
+        "Anime Movies"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYt-cjTZP0RQWd_bvRVBbFspoy_ZTc_hKOOsTWLM0nLhz7o79g4pFcdukA_Nrff46E2Cu-qc6qTzJuktaIYmh8Y9PFU.jpg?r=c04",
+      "match": 91,
+      "certificate": "U/A 13+",
+      "duration": "1h 25m"
+    },
+    {
+      "id": 26,
+      "title": "When Marnie Was There",
+      "category": "Anime",
+      "quality": [
+        "Understated",
+        "Drama Anime",
+        "Anime Movies"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW2qRZZuVYbrLts6XnPtfcPUTIWPv1bHCe35YryYuEdNdb4vBtFTFZ_Gijs8yeQf2P_3qKpGNrlEAH9hM_GctAQIqdU.jpg?r=7a0",
+      "match": 88,
+      "certificate": "U/A 7+",
+      "duration": "1h 43m"
+    },
+    {
+      "id": 27,
+      "title": "From Up On Poppy Hill",
+      "category": "Anime",
+      "quality": [
+        "Nostalgic",
+        "Drama Anime",
+        "Anime Movies"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUltaPfUCBC5LIAKwWeLPsPAOJV0hadAeSRt29CaCWQbTL60l3xdpClw3GS2UsVgiSH6iKwgp-zrxbFh5et0YnqgOHE.jpg?r=95b",
+      "match": 85,
+      "certificate": "U/A 7+",
+      "duration": "1h 31m"
+    },
+    {
+      "id": 28,
+      "title": "Garden Of Words",
+      "category": "Anime",
+      "quality": [
+        "Understated",
+        "Intimate",
+        "Romantic Anime"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWc2IALTvdnFEYik-HQGdtENRwDrIw2DFYdVZdaY8VmnICmfs67eWfbvxOb8rsyTyL5HYTBsp-SNoAl8zsfQnRVHUsU.jpg?r=e2f",
+      "match": 91,
+      "certificate": "U/A 13+",
+      "duration": "46m"
+    },
+    {
+      "id": 29,
+      "title": "5 Centimeter Per Second",
+      "category": "Anime",
+      "quality": [
+        "Nostalgic",
+        "Intimate",
+        "Emotional"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT4PCquF7AjXVwEI4OsA3iH3REsibGfX99A2xR-xCQF3aLdFn0YPsWtr1BEeYVqlnrX7H9pwGfy80yFuDICGj7W9kc8.jpg?r=53f",
+      "match": 93,
+      "certificate": "U/A 7+",
+      "duration": "1h 2m"
+    },
+    {
+      "id": 30,
+      "title": "The Wind Rises",
+      "category": "Anime",
+      "quality": [
+        "Nostalgic",
+        "Emotional",
+        "Drama Anime"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbCpTyGssJZ4O4eAVUrDPD_1TuUBYgW9RAFtKbQlZkN4QOyuMW9HrT0ktGnkLeT-86ejHQWVgJx4__OQqi4LAZocg-E.jpg?r=685",
+      "match": 86,
+      "certificate": "U/A 13+",
+      "duration": "2h 6m"
+    },
+    {
+      "id": 31,
+      "title": "Spider-Man: Into The Spider-Verse",
+      "category": "AwardWinning",
+      "quality": [
+        "Slick",
+        "Suspenseful",
+        "Exciting"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABeCtg0kdd3OcvAXeFXmysIXv--iM44DqEXiXcTzbeW4IrqlnN7Alt1u7kCUuCbcE-gwhCAH5DmhlZs2UXhYLPX2LJT8.jpg?r=efe",
+      "match": 70,
+      "certificate": "U/A 13+",
+      "duration": "1h 56m"
+    },
+    {
+      "id": 32,
+      "title": "Don't Look Up",
+      "category": "AwardWinning",
+      "quality": [
+        "Offbeat",
+        "Provocative",
+        "Witty"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b",
+      "match": 68,
+      "certificate": "A",
+      "duration": "2h 18m"
+    },
+    {
+      "id": 33,
+      "title": "The Green Mile",
+      "category": "AwardWinning",
+      "quality": [
+        "Inspiring",
+        "Emotional",
+        "Tear Jerker"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABaDLyO6gnu5rElJE1PvjrA1VSRO4Fo1AcsGyFP2OufWKtn79z5syE4oQXVY4umoS4zxvPakkw--UOiDQlCrmml6_tdI.jpg?r=88c",
+      "match": 90,
+      "certificate": "A",
+      "duration": "3h 8m"
+    },
+    {
+      "id": 34,
+      "title": "Schindler's List",
+      "category": "AwardWinning",
+      "quality": [
+        "Violent",
+        "Dark",
+        "Emotional"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABT1-jVmYRRQUmKsuXljPkCSh_sfiP5-4WjKwmWsLP4jp5UPT7XpAslkvYmhiOalrbd6mMg05sf5hH17HDghDgeivUiw.jpg?r=379",
+      "match": 85,
+      "certificate": "A",
+      "duration": "3h 15m"
+    },
+    {
+      "id": 35,
+      "title": "The Lost Daughter",
+      "category": "AwardWinning",
+      "quality": [
+        "Cerebral",
+        "Understated",
+        "Intimate"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABRIkOEqo8FF7Tk8OxIcl0Nh5wTRSTSwLs2uMHGTJfgXdNnYsX0VTFM1WGSkZydr1oizA7KyR1shSm2SEWa4dOr674H1jXjPEBJU5mBkFQ2aJA6DjT6gCTSayOwbv.jpg?r=58f",
+      "match": 83,
+      "certificate": "A",
+      "duration": "2h 2m"
+    },
+    {
+      "id": 36,
+      "title": "The Shawshank Redemption",
+      "category": "AwardWinning",
+      "quality": [
+        "Inspiring",
+        "Emotional",
+        "Drama"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZqsYL2_Z6pAwERmihh5QMoXyVoY30yHbVSrahcTirW6lEd-xpbyD6CT_B-DfST2kejjtdDRq3YG_oP-ZKScyGPBZvA.jpg?r=333",
+      "match": 80,
+      "certificate": "A",
+      "duration": "2h 22m"
+    },
+    {
+      "id": 37,
+      "title": "The Blind Side",
+      "category": "AwardWinning",
+      "quality": [
+        "Inspiring",
+        "Hearfelt",
+        "Feel-Good"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABQcC3GpR7ULIxOKcrVt7dQGKyPVmot-tDB-SWO8JXsW225qGHE2erP1XLLaZfvu_U24QgW6h-i-mAGQYA3h-9fYTaDg.jpg?r=c5f",
+      "match": 88,
+      "certificate": "U/A 13+",
+      "duration": "2h 8m"
+    },
+    {
+      "id": 38,
+      "title": "Dil Dhadakne Do",
+      "category": "AwardWinning",
+      "quality": [
+        "Charming",
+        "Feel-Good",
+        "Emotional"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZCWUcjkYmOc9OieIh1Oa1Q8Za6jiT6L2pvnRBhiicibXdjWUcP5sLimN-jJpid_PEeauf6BV1jaQGf0-REEhRgGYoE.jpg?r=de8",
+      "match": 84,
+      "certificate": "U/A 16+",
+      "duration": "2h 53m"
+    },
+    {
+      "id": 39,
+      "title": "The Lunchbox",
+      "category": "AwardWinning",
+      "quality": [
+        "Understated",
+        "Intimate",
+        "Romantic"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABajJgBzy4hL6aEkyMNZAkSf23jiEg1Sjpb9z4fxPRfsd4tsX2IKh-r6bzlo0FcJ7UieLDLIrj_LcuxAXuUnv2Mq7GFc.jpg?r=fe5",
+      "match": 73,
+      "certificate": "U/A 13+",
+      "duration": "1h 42m"
+    },
+    {
+      "id": 40,
+      "title": "Masaan",
+      "category": "AwardWinning",
+      "quality": [
+        "Understated",
+        "Emotional",
+        "Hidden Gem"
+      ],
+      "thumbnail": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfEDWuJvgw0s4tqIc74AkE4trGLnjTThhxXMK4OmBZ9NTAlK3bEGf7cIKZWXnJBdu5WGoDIuPSUcnMIdagXJULVNYIY.jpg?r=140",
+      "match": 59,
+      "certificate": "A",
+      "duration": "1h 46m"
+    }
+  ]

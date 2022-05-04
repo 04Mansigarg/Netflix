@@ -21,7 +21,7 @@ export const Routers = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        /<Route path="/" element={<LandingPage />} />
         <Route path="signup1" element={<SignUp1 />} />
         <Route path="signup2" element={<SignUp2 />} />
         <Route path="signup3" element={<SignUp3 />} />

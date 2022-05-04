@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "title": "Little Things",
+      "category": "Indian",
+      "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQUAolj0aWIPvIeX_b3hWZgv02JOY81yERK3NHg6QukX90NzDXbcygmZr4zIuAiP96SKYj1mRg3CgIjRP_6TaEoUu1V8.webp?r=749",
+      "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWeNM_pjzgOMs-v3bIM-BPEaEpNPcZf8wplU0KiAJTyxu4pbT5oJatLztRwjoN29vKTDnk0Ushvnxb8fEHxMtA_V3BB-BnO2WYPvRQZBSImK0bcAMXL12rf81zNfqGnpOMUm06KTJHNN2xHZ_dLnGjwXvOSlcjGlseNaq-rUsfM7nw.webp?r=5f9",
+      "description": "A cohabiting couple in their 20s navigate the ups and downs of work, modern-day relationships and finding themselves in contemporary Mumbai.",
+      "match": 94,
+      "certificate": "U/A 16+",
+      "seasons": 4,
+      "year": 2021,
+      "cast": [
+        "Dhruv Sehgal",
+        "Mithila Palkar"
+      ],
+      "genres": [
+        "Romantic TV Dramas",
+        "Romantic TV Comedies",
+        "Hindi-Language TV Shows"
+      ],
+      "quality": [
+        "Intimate",
+        "Romantic"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mismatched",
+      "category": "Romance",
+      "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeFhXOpAI5UaPKrN4Gq63piZVHm-H2d99juYupnVSdn1j5DY7jSGos2-x2tS-TQh0eMzys6bHFF9Zicop3e09G_6u7Bp.webp?r=ab4",
+      "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABbshfm6dKfz1o_IaEKA65jBovoo74LuNotYkFKn6zS4wg6kMmZ4OTwPrNVmCIvP1VxYytm2h1cNBKnjCI3mTcIvXrHj9INqPvdGZ1m7wSclNc1nv0bHe-lyAMPgTqeiAYtyjILAMminDioThOooo6uP6hF2n-T1soxmjpKnN8DrL8g.webp?r=31b",
+      "description": "She wants a future. He wants a future wife. This next-gen love story is glitchy — but it’s not game over yet.",
+      "match": 89,
+      "certificate": "A",
+      "seasons": 1,
+      "year": 2020,
+      "cast": [
+        "Prajakta Koli",
+        "Rohit Saraf",
+        "Vihaan Samat",
+        "more"
+      ],
+      "genres": [
+        "Romantic TV Dramas",
+        "Romantic TV Comedies",
+        "Hindi-Language TV Shows"
+      ],
+      "quality": [
+        "Quirky",
+        "Heartfelt",
+        "Romantic"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Teen Wolf",
+      "category": "Horror",
+      "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWhddUyblR6HksEoeyACVimCNIQCiswPm948NvkBG-yLhjuSFxTkxLQZ23CBtlhOFb3ncT5iL4G4fk3m0YO8i9zNonQz.webp?r=a8c",
+      "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABYE68QwGpVvR4Uy-zwLrzOHDqzRoTuJiEAxkS2gCi9sd9SbePaA84Pe_CaiINccfUs8or0xqq2WT1iZogERKsplP5oxHbHmkok1T.webp?r=72b",
+      "description": "An animal bite turns a high schooler into a werewolf whose newfound supernatural abilities make him a star athlete – and majorly complicate his life.",
+      "match": 91,
+      "certificate": "A",
+      "seasons": 6,
+      "year": 2016,
+      "cast": [
+        "Tyler Pose",
+        "Crystal Reed",
+        "Dylan O'Brien",
+        "more"
+      ],
+      "genres": [
+        "Teen TV Shows",
+        "TV Dramas",
+        "TV Horror"
+      ],
+      "quality": [
+        "Suspenseful",
+        "Exciting"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Crime Stories : India Detectives",
+      "category": "Docuseries",
+      "bannerPic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABY41kmNBsBzqWHmd_gx3-Cxq0WRVQ48pqUmhaxuVmNJDkZy0PsivSNk1-yTqF86qY_bDGzq7vvaNsq-AHWaEjHCaEUju.webp?r=b4c",
+      "namePic": "https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABR7RhIKZWpwECYycyYXf1vcEH_sujG841ERgMUQw5yv8IUFnj-WxKvharqCQ4IWPnPBJmSUSDHSnahozZVS5yVukJlD4N24JeZHXsltxMPSPUWumR0m72BVeYwzsPmOfsSk_pkOfbqlE9EXoIuA1yscNx9nMn8VhsIBbrYpYrlUkTw.webp?r=979",
+      "description": "Cameras following Bengaluru police on the job offer a rare glimpse into the complex and challenging inner workings of four major crime investigations.",
+      "match": 82,
+      "certificate": "U/A 16+",
+      "seasons": 1,
+      "year": 2021,
+      "cast": [
+        "Police",
+        "more"
+      ],
+      "genres": [
+        "Social & Cultural Docs",
+        "Docuseries",
+        "Crime TV Shows"
+      ],
+      "quality": [
+        "Gritty",
+        "Dark"
+      ]
+    }
+  ]
