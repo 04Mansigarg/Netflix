@@ -1,3 +1,25 @@
+.logo img {
+  height: 50px;
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .signbtn {
+  right: 50px;
+  top: 30px;
+  position: absolute;
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
 .middlebox form {
   display: flex;
   flex-direction: column;
@@ -5,7 +27,7 @@
 .middlebox {
   width: 400px;
   margin-left: auto;
-
+  margin-top: 10%;
   margin-right: auto;
   left: 0;
   right: 0;
@@ -73,4 +95,21 @@
 .checkbox input {
   margin-right: 5px;
   width: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .logo img {
+    height: 30px;
+  }
+  .header .signbtn {
+    top: 20px;
+    position: absolute;
+  }
+  .middlebox {
+    margin-top: 30%;
+    width: 350px;
+  }
+  .btnbox {
+    width: 300px;
+  }
 }

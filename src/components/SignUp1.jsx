@@ -9,9 +9,22 @@ const SignUp1 = () => {
     <div className={styles.container}>
       <div className={styles.header}>
         <div className={styles.logo}>
+<<<<<<< HEAD
+          <a href="/">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <a className={styles.signbtn} href="./">
+          Sign In
+        </a>
+=======
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt="" />
         </div>
         <Link style={{ textDecoration: "none" }} to="/login">Sign In</Link>
+>>>>>>> main
       </div>
       <div className={styles.middlebox}>
         <img
