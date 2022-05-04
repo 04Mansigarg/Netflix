@@ -7,8 +7,6 @@ import { RomanceTvShows } from '../HomePage/RomanceTvShows'
 import { AllTvShows } from './AllTvShows'
 import styles from "../HomePage/HomePage.module.css"
 import { TvshowsBanner } from './TvshowsBanner'
-import Navbar from '../component/Navbar'
-import Navbar2 from '../component/Navbar2'
 
 export const TvShows = () => {
     return (

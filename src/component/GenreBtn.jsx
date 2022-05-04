@@ -29,7 +29,7 @@ const GenreBtn = () => {
   return (
     <div className={styles.genreComp}>
       <button className={styles.btn}>
-        Genres <ArrowDropDownIcon />
+        Genres <ArrowDropDownIcon className={styles.genereIcon} />
       </button>
 
       <div className={styles.DD}>
