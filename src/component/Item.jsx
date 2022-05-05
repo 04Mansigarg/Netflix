@@ -1,6 +1,5 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { TvshowsBanner } from '../TvShows/TvshowsBanner'
 import PopUp from '../components/PopUp'
 import styles from "../HomePage/HomePage.module.css"
 
@@ -10,7 +9,7 @@ export const Item = () => {
     const endItem = useSelector((state) => state.endCategoryItem)
     console.log(mainItem)
     React.useEffect(() => {
-        fetch(`https://netflixd.herokuapp.com/${endItem}?category=${mainItem}`)
+        fetch(`http://localhost:8000/${endItem}?category=${mainItem}`)
             .then((res) => res.json())
             .then((res) => setData(res))
             .catch((err) => console.log(err))

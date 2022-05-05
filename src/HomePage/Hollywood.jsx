@@ -8,7 +8,7 @@ export const Hollywood = () => {
     const hollywood = useSelector((state => state.hollywood))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("https://netflixd.herokuapp.com/movies?category=Hollywood")
+        fetch("http://localhost:8000/movies?category=Hollywood")
             .then((res) => res.json())
             .then((res) => dispatch(get_hollywood(res)))
             .catch((err) => console.log(err))

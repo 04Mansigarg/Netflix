@@ -8,7 +8,7 @@ export const Bollywood = () => {
     const bollywood = useSelector((state => state.bollywood))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("https://netflixd.herokuapp.com/movies?category=Bollywood")
+        fetch("http://localhost:8000/movies?category=Bollywood")
             .then((res) => res.json())
             .then((res) => dispatch(get_bollywood(res)))
             .catch((err) => console.log(err))

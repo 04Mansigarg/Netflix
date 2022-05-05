@@ -13,13 +13,13 @@ export const Search = () => {
     const dispatch = useDispatch()
     const getdata = () => {
         if (q === "Indian" || q === "Romance" || q === "Horror" || q === "Docuseries") {
-            fetch(`https://netflixd.herokuapp.com/tvshows?category=${q}`)
+            fetch(`http://localhost:8000/tvshows?category=${q}`)
                 .then(res => res.json())
                 .then((res) => dispatch(search_data(res)))
                 .catch((err) => console.log(err))
         }
         else if (q === "Anime" || q === "Bollywood" || q === "Hollywood" || q === "AwardWinning") {
-            fetch(`https://netflixd.herokuapp.com/movies?category=${q}`)
+            fetch(`http://localhost:8000/movies?category=${q}`)
                 .then(res => res.json())
                 .then((res) => dispatch(search_data(res)))
                 .catch((err) => console.log(err))

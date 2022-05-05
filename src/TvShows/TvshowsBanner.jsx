@@ -35,7 +35,7 @@ export const TvshowsBanner = () => {
     let id = 2;
     setInterval(() => {
       console.log(id);
-      fetch(`https://netflixd.herokuapp.com/banners-tv/${id}`)
+      fetch(`http://localhost:8000/bannertvshows/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));

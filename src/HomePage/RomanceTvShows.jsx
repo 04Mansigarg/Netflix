@@ -8,7 +8,7 @@ export const RomanceTvShows = () => {
     const romanceShows = useSelector((state => state.romance_tv))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("https://netflixd.herokuapp.com/tvshows?category=Romance")
+        fetch("http://localhost:8000/tvshows?category=Romance")
             .then((res) => res.json())
             .then((res) => dispatch(get_romance_tvshows(res)))
             .catch((err) => console.log(err))

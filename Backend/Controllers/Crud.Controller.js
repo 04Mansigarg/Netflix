@@ -1,44 +1,49 @@
+const { Category } = require("@mui/icons-material")
+
 // create item
-const CreateOne = (model)=> async(req,res)=>{
-    try{
+const CreateOne = (model) => async (req, res) => {
+    try {
         let createdItem = await model.create(req.body)
-      
+
         res.status(201).json(createdItem)
     }
-    catch(e){
+    catch (e) {
         console.log(e.message)
     }
 }
 // read all item
-const getAll=(model)=> async (req, res) => {
-    let items = await model.find({})
-    console.log(items)
-    res.status(200).json(items);
+const getAll = (model) => async (req, res) => {
+    try {
+        var category = req.query.category
+        const criteria = {}
+        if (category) {
+            criteria.category = category
+        }
+
+        let items = await model.find(criteria)
+        res.status(200).json(items);
+    }
+    catch (e) {
+        console.log(e.message)
+    }
+
+
 }
 // read one item
-const getOne =(model)=> async(req,res)=>{
-    let item =await model.findById(req.params.id);
-    res.status(200).json(item);
+const getOne = (model) => async (req, res) => {
+    try {
+        let id = req.params.id
+        let item = await model.findOne({ id: id });
+        res.status(200).json(item);
+    }
+    catch (e) {
+        console.log(e.message)
+    }
+
 };
- 
-// Update item
-const updateOne=(model)=> async (req,res)=>{
-    let updatedItem = await model.findByIdAndUpdate(
-        req.params.id,
-        req.body,
-        {new:true}
-        );
-    res.status(200).json(updatedItem); 
-}
-// delete Item
-const deleteOne = (model)=>async (req,res)=>{
-    const deletedItem = await model.findByIdAndDelete(req.params.id);
-    res.status(200).json(deletedItem);
-}
-module.exports = (model)=>({
-    post:CreateOne(model),
-    getAll : getAll(model),
-    getOne : getOne(model),
-    update: updateOne(model),
-    delete: deleteOne(model)
+
+module.exports = (model) => ({
+    post: CreateOne(model),
+    getAll: getAll(model),
+    getOne: getOne(model),
 });

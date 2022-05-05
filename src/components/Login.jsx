@@ -7,37 +7,81 @@ import { auth, get_userData } from "../Redux-Store/Home/Action";
 const Login = () => {
   const [loginEmail, setloginEmail] = React.useState("")
   const [loginPassword, setLoginPassword] = React.useState("")
-  const userData = useSelector((state) => state.userData)
-  const navigate = useNavigate()
-  const dispatch = useDispatch()
-  const onLogin = () => {
-    var data = false
-    console.log(userData)
-    for (var i = 0; i < userData.length; i++) {
-      console.log(userData[i].email, userData[i].Password)
-      if (userData[i].email === loginEmail && userData[i].Password === loginPassword) {
-        data = true;
-      }
-    }
-    if (data === true) {
-
-      dispatch(auth(true))
-      navigate("/homepage")
-    }
-    else {
-      console.log(typeof loginEmail, typeof loginPassword)
-      console.log(loginEmail, loginPassword)
-      alert("Invalid Credential")
-      navigate("/")
-    }
+  const initState = {
+    email: "",
+    password: ""
   }
+  const [formData, setFormData] = React.useState(initState)
+  // const userData = useSelector((state) => state.userData)
+  // const navigate = useNavigate()
+  const dispatch = useDispatch()
+  // const onLogin = () => {
+  //   var data = false
+  //   console.log(userData)
+  //   for (var i = 0; i < userData.length; i++) {
+  //     console.log(userData[i].email, userData[i].Password)
+  //     if (userData[i].email === loginEmail && userData[i].Password === loginPassword) {
+  //       data = true;
+  //     }
+  //   }
+  //   if (data === true) {
 
-  React.useEffect(() => {
-    fetch("https://netflixd.herokuapp.com/users")
+  //     dispatch(auth(true))
+  //     navigate("/homepage")
+  //   }
+  //   else {
+  //     console.log(typeof loginEmail, typeof loginPassword)
+  //     console.log(loginEmail, loginPassword)
+  //     alert("Invalid Credential")
+  //     navigate("/")
+  //   }
+  // }
+
+  // React.useEffect(() => {
+  //   fetch("https://netflixd.herokuapp.com/users")
+  //     .then((res) => res.json())
+  //     .then((res) => dispatch(get_userData(res)))
+  //     .catch((err) => console.log(err))
+  // }, [])
+
+  const navigate = useNavigate();
+  const handleChange = (e) => {
+    let { name, value } = e.currentTarget
+    setFormData({
+      ...formData,
+      [name]: value
+    })
+
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (formData.email === "" || formData.password === "") {
+      alert("Fill the Credential")
+    }
+
+    fetch("http://localhost:8000/users/login", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: { "content-type": "application/json" }
+    })
       .then((res) => res.json())
-      .then((res) => dispatch(get_userData(res)))
-      .catch((err) => console.log(err))
-  }, [])
+      .then((res) => {
+        JSON.stringify(res)
+        setFormData(initState)
+
+        if (res.token) {
+          dispatch(auth(true))
+          navigate("/homepage")
+        }
+
+      })
+      .catch((err) => {
+        console.log(err)
+        alert("Invalid Credential")
+        navigate("/")
+      })
+
+  }
 
   return (
     <div className={styles.container}>
@@ -45,11 +89,11 @@ const Login = () => {
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt="" />
       </div>
       <div className={styles.loginbox}>
-        <form action="">
+        <form action="" onSubmit={handleSubmit}>
           <h1>Sign In</h1>
-          <input type="email" placeholder="Email or phone number" value={loginEmail} onChange={(e) => setloginEmail(e.currentTarget.value)} />
-          <input type="password" placeholder="Password" value={loginPassword} onChange={(e) => setLoginPassword(e.currentTarget.value)} />
-          <button onClick={onLogin}>Sign In</button>
+          <input className={styles.loginbox_input} type="email" placeholder="Email or phone number" name="email" value={formData.email} onChange={handleChange} />
+          <input className={styles.loginbox_input} type="password" placeholder="Password" name="password" value={formData.password} onChange={handleChange} />
+          <input className={styles.signIn} type="submit" value="Sign In" />
         </form>
       </div>
       <div className={styles.footer}>

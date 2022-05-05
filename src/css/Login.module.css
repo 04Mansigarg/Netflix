@@ -35,7 +35,7 @@
   padding: 15%;
 }
 
-.loginbox form input {
+.loginbox_input {
   height: 40px;
   margin: 5px;
   border-radius: 5px;
@@ -50,7 +50,7 @@
   color: white;
 }
 
-.loginbox form button {
+.signIn {
   height: 60px;
   margin: 5px;
   border-radius: 5px;
