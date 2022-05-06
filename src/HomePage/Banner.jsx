@@ -31,14 +31,11 @@ export const Banner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      console.log(id);
 
       fetch(`http://localhost:8000/bannertvshows/${id}`)
         .then((res) => res.json())
         .then((res) => {
-          console.log(res)
           setObj(res)
-          console.log(obj)
         })
         .then(() => {
           if (id >= 4) {

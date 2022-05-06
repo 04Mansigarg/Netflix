@@ -18,3 +18,9 @@ export const CATEGORY = "CATEGORY"
 export const ENDCATEGORY = "ENDCATEGORY"
 export const SEARCH = "SEARCH"
 export const SEARCHDATA = "SEARCHDATA"
+
+export const LOADING = "LOADING"
+export const ERROR = "ERROR"
+
+export const SIGNIN_LOADING= "SIGNIN_LOGIN"
+export const SIGNIN_ERROR= "SIGNIN_ERROR"

@@ -137,14 +137,34 @@
   display: block;
   transition: display 2s;
 }
+.dropDownMenu{
+ display: none;
+}
 @media screen and (max-width:500px) {
+  .nav {
+    justify-content: left;
+  }
  .menuItems{
    display: none;
  }
  .logoimg {
-  max-height: 50px;
-  margin-right: 1px;
+
+  margin-right: 0;
   margin-left: 0;
+  width: 60px;
+  margin-top: 4px;
+
  
+}
+.span1>ul{
+  margin-block-start: 0em;
+  padding-inline-start: 4px;
+  margin-block-end: 0em;
+}
+.dropDownMenu{
+  display: block;
+}
+.searchBar{
+  width: 100px;
 }
 }

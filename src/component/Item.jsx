@@ -1,19 +1,31 @@
+
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import PopUp from '../components/PopUp'
 import styles from "../HomePage/HomePage.module.css"
+import { get_error, get_loading } from '../Redux-Store/Home/Action'
 
 export const Item = () => {
     const [data, setData] = React.useState([])
-    const mainItem = useSelector((state) => state.mainItem)
-    const endItem = useSelector((state) => state.endCategoryItem)
+    
+    const {mainItem,endItem} = useSelector((state) => ({
+        mainItem:state.mainItem,
+        loading:state.loading,
+        error:state.error,
+        endItem: state.endCategoryItem
+
+    }))
+    const dispatch = useDispatch()
     console.log(mainItem)
     React.useEffect(() => {
+        dispatch(get_loading())
         fetch(`http://localhost:8000/${endItem}?category=${mainItem}`)
             .then((res) => res.json())
             .then((res) => setData(res))
-            .catch((err) => console.log(err))
+            .catch((err) => {console.log(err)
+            dispatch(get_error())})
     }, [])
+   
     return (
         <div className={styles.mainRow}>
             <h3 className={styles.mainHeading}>{mainItem}</h3>

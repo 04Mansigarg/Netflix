@@ -1,17 +1,26 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import PopUp from '../components/PopUp'
-import { get_romance_tvshows } from '../Redux-Store/Home/Action'
+import { get_error, get_loading, get_romance_tvshows } from '../Redux-Store/Home/Action'
 import styles from "./HomePage.module.css"
 
 export const RomanceTvShows = () => {
-    const romanceShows = useSelector((state => state.romance_tv))
+    const {romanceShows} = useSelector((state) => ({
+        romanceShows:state.romance_tv,
+        loading:state.loading,
+        error:state.error
+
+    }))
     const dispatch = useDispatch()
     React.useEffect(() => {
+        dispatch(get_loading())
         fetch("http://localhost:8000/tvshows?category=Romance")
             .then((res) => res.json())
             .then((res) => dispatch(get_romance_tvshows(res)))
-            .catch((err) => console.log(err))
+            .catch((err) =>{
+                console.log(err)
+                dispatch(get_error())
+            })
     }, [])
 
     return (

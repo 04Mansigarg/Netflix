@@ -41,3 +41,14 @@
   .mainFooterButton:hover{
      color: white;
   }
+  @media screen and (max-width: 500px){
+    .mainFooterDiv{
+      width: 80%;
+    }
+    .mainFooterLinksDiv{
+      margin-top: 1em;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 1em;
+    }
+  }

@@ -18,10 +18,16 @@ const getAll = (model) => async (req, res) => {
         const criteria = {}
         if (category) {
             criteria.category = category
+            let items = await model.find(criteria)
+            res.status(200).json(items);
+        }
+        else{
+            let items = await model.find()
+            res.status(200).json(items);
         }
 
-        let items = await model.find(criteria)
-        res.status(200).json(items);
+        
+        
     }
     catch (e) {
         console.log(e.message)

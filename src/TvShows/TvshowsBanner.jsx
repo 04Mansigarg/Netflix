@@ -34,7 +34,6 @@ export const TvshowsBanner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      console.log(id);
       fetch(`http://localhost:8000/bannertvshows/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
