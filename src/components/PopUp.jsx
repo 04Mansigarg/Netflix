@@ -12,7 +12,7 @@ const PopUp = ({ items }) => {
   const navigate = useNavigate();
   return (
     hover ? <div onMouseLeave={() => setHover(false)} className={styles.popup_container}>
-      <img src={items.thumbnail} alt="" />
+      <img  src={items.thumbnail} alt="" />
       <div className={styles.row1}>
         <span>
           <PlayCircleFilledIcon sx={{ fontSize: "1.5em" }}
@@ -30,7 +30,8 @@ const PopUp = ({ items }) => {
       <div className={styles.row2}>
         <span className={styles.match}>{items.match}% Match</span>
         <span className={styles.cert}>{items.certificate}</span>
-        <span>{items.duration === undefined ? `${items.seasons} Season ` : items.duration}</span>
+        <span>{items.duration===undefined ? `${items.seasons} Season ` : items.seasons
+        ===undefined? `${items.duration} Duration` : <div></div>}</span>
       </div>
       <div className={styles.row3}>
         <span>{items.quality[0]}</span>
@@ -43,7 +44,7 @@ const PopUp = ({ items }) => {
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className={styles.rowImage} key={items.id}>
-      <img src={items.thumbnail} alt="" />
+      <img className={styles.itemImg} src={items.thumbnail} alt="" />
     </div>
   );
 };

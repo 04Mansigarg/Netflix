@@ -10,7 +10,7 @@ const moviesSchema = new mongoose.Schema({
     thumbnail: { type: String, required: true },
     match: { type: Number, required: true },
     certificate: { type: String, required: true },
-    duration: { type: Number, required: true },
+    duration: { type: String, required: true },
 })
 
 module.exports = mongoose.model("movies", moviesSchema)

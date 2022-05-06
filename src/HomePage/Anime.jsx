@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import PopUp from '../components/PopUp'
@@ -5,15 +6,22 @@ import { get_anime } from '../Redux-Store/Home/Action'
 import styles from "./HomePage.module.css"
 
 export const Anime = () => {
-    const anime = useSelector((state => state.anime))
+    const {anime} = useSelector((state) => ({
+        anime:state.anime,
+        loading:state.loading,
+        error:state.error
+
+    }))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("https://netflixd.herokuapp.com/movies?category=Anime")
+        fetch("http://localhost:8000/movies?category=Anime")
             .then((res) => res.json())
             .then((res) => dispatch(get_anime(res)))
-            .catch((err) => console.log(err))
+            .catch((err) => {
+                console.log(err)
+            })
     }, [])
-
+ 
     return (
         <div className={styles.mainRow}>
             <h3 className={styles.mainHeading}>Anime</h3>

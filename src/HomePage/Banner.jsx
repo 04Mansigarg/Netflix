@@ -31,25 +31,30 @@ export const Banner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      console.log(id);
-      fetch(`https://netflixd.herokuapp.com/banners-tv/${id}`)
+
+      fetch(`http://localhost:8000/bannertvshows/${id}`)
         .then((res) => res.json())
-        .then((res) => setObj(res))
+        .then((res) => {
+          setObj(res)
+        })
+        .then(() => {
+          if (id >= 4) {
+            id = 1;
+          } else {
+            id++;
+          }
+        })
         .catch((err) => console.log(err));
-      if (id >= 4) {
-        id = 1;
-      } else {
-        id++;
-      }
+
     }, 5000);
   }, []);
 
   return (
     <div className={styles.bannerDiv}
-    style={{ backgroundImage: `url("${obj.bannerPic}")` }}>
+      style={{ backgroundImage: `url("${obj.bannerPic}")` }}>
       <div className={styles.imgDiv}>
         <img
-        style={{marginTop:"45%"}}
+          style={{ marginTop: "45%" }}
           src={`${obj.namePic}`}
           alt=""
         />

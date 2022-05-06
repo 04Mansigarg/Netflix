@@ -33,8 +33,7 @@ export const MoviesBanner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      console.log(id);
-      fetch(`https://netflixd.herokuapp.com/banners-mo/${id}`)
+      fetch(`http://localhost:8000/bannermovies/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));
