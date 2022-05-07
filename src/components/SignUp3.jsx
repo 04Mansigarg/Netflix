@@ -14,7 +14,7 @@ const SignUp3 = () => {
             alt=""
           />
         </div>
-        <Link style={{ textDecoration: "none" }} to="/">
+        <Link className={styles.signbtn} to="/">
           Sign Out
         </Link>
       </div>

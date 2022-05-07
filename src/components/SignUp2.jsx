@@ -28,7 +28,7 @@ const SignUp2 = () => {
             />
           </a>
         </div>
-        <Link style={{ textDecoration: "none" }} to="/login">
+        <Link className={styles.signbtn} to="/login">
           Sign In
         </Link>
       </div>

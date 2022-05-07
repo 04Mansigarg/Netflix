@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import Header from "./Header";
 import styles from "../component/Style/form.module.css";
 import { FooterComp } from "../components/FooterComp";
@@ -81,7 +81,18 @@ export const Paymentform = () => {
   else
     return (
       <>
-        <Header />
+        {/* <Header /> */}
+        <div className={styles.header}>
+          <div className={styles.logo}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
+              alt=""
+            />
+          </div>
+          <Link className={styles.signbtn} to="/">
+            Sign Out
+          </Link>
+        </div>
         <div className={styles.middlebox}>
           <p>STEP 3 OF 3</p>
           <h2>Set up your credit or debit card</h2>
