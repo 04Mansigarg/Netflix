@@ -5,14 +5,20 @@ import styles from "../HomePage/HomePage.module.css"
 import PopUp from '../components/PopUp'
 
 export const AllTvShows = () => {
-    const tvshows = useSelector((state => state.tv_shows))
+    const { tvshows } = useSelector((state) => ({
+        tvshows: state.tv_shows
+
+    }))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:3000/tvshows")
+        fetch("http://localhost:8000/tvshows")
             .then((res) => res.json())
             .then((res) => dispatch(get_tvshows(res)))
-            .catch((err) => console.log(err))
+            .catch((err) => {
+                console.log(err)
+            })
     }, [])
+  
 
     return (
         <div className={styles.mainRow}>

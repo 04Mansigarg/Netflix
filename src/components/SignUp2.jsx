@@ -28,9 +28,9 @@ const SignUp2 = () => {
             />
           </a>
         </div>
-        <a className={styles.signbtn} href="/">
+        <Link style={{ textDecoration: "none" }} to="/login">
           Sign In
-        </a>
+        </Link>
       </div>
       <div className={styles.middlebox}>
         <p>STEP 1 OF 3</p>

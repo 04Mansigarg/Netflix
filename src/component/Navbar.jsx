@@ -8,6 +8,7 @@ import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { auth, search } from "../Redux-Store/Home/Action";
+import DropDownMenu from "./DropDown"
 
 const Navbar = () => {
   const search_item = useSelector(state => state.search_item)
@@ -54,6 +55,7 @@ const Navbar = () => {
             <li className={styles.menuItems}>My List</li>
           </ul>
         </span>
+        <DropDownMenu/>
         <span className={styles.span2}>
           <ul>
             <li>
@@ -63,7 +65,7 @@ const Navbar = () => {
               }} />
             </li>
             <li>
-              <input type="text" placeholder="Titles, people, genres" value={search_item} onChange={(e) => dispatch(search(e.currentTarget.value))} />
+              <input className={styles.searchBar} type="text" placeholder="Titles, people, genres" value={search_item} onChange={(e) => dispatch(search(e.currentTarget.value))} />
             </li>
             <li>
               <div className={styles.notifContainer}>

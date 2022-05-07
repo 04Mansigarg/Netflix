@@ -1,4 +1,27 @@
-import { AUTH, CATEGORY, EMAIL, ENDCATEGORY, GETUserDATA, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, MAINITEM, PASSWORD, SEARCH, SEARCHDATA } from "./ActionTypes"
+
+import { AUTH, CATEGORY, EMAIL, ENDCATEGORY, ERROR, GETUserDATA, GET_ANIME, GET_AWARDWINNING, GET_BOLLYWOOD, GET_DOCUSERIESSHOWS, GET_HOLLYWOOD, GET_HORRORTVSHOWS, GET_INDIANTVSHOWS, Get_MOVIES, GET_ROMANCETVSHOWS, Get_TVSHOWS, LOADING, MAINITEM, PASSWORD, SEARCH, SEARCHDATA, SIGNIN_ERROR, SIGNIN_LOADING} from "./ActionTypes"
+export const get_loading = () => {
+    return {
+        type: LOADING
+    }
+}
+export const get_error = () => {
+    return {
+        type: ERROR
+    }
+}
+export const get_signin_loading = (data) => {
+    return {
+        type: SIGNIN_LOADING,
+        payload:data
+    }
+}
+export const get_signin_error = (data) => {
+    return {
+        type: SIGNIN_ERROR,
+        payload:data
+    }
+}
 
 export const get_indian_tvshows = (data) => {
     return {

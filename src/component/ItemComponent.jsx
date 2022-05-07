@@ -1,8 +1,8 @@
 import React from 'react'
 import { Banner } from './Banner'
 import { Item } from './Item'
-import { ItemNav } from './ItemNav'
 import Navbar from './Navbar'
+import {MainFooter} from "../HomePage/MainFooter"
 
 export const ItemComponent = () => {
     return (
@@ -10,6 +10,7 @@ export const ItemComponent = () => {
             <Navbar />
             <Banner />
             <Item />
+            <MainFooter/>
         </div>
     )
 }

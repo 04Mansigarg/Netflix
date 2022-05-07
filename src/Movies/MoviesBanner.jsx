@@ -3,6 +3,7 @@ import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 import Navbar from "../component/Navbar";
 import Navbar3 from "../component/Navbar3";
 import { useNavigate } from "react-router-dom";
+import styles from "../HomePage/Banner.module.css"
 
 export const MoviesBanner = () => {
   const navigate = useNavigate()
@@ -32,8 +33,7 @@ export const MoviesBanner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      console.log(id);
-      fetch(`https://netflixd.herokuapp.com/banners-mo/${id}`)
+      fetch(`http://localhost:8000/bannermovies/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));
@@ -47,84 +47,41 @@ export const MoviesBanner = () => {
 
   return (
     <div
-      style={{
-        backgroundImage: `url("${obj.bannerPic}")`,
-        height: "90vh",
-        width: "100%",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-      }}
+      className={styles.bannerDiv}
+      style={{ backgroundImage: `url("${obj.bannerPic}")` }}
     >
       <Navbar />
       <Navbar3 />
-      <div style={{ width: "35%" }}>
+      <div className={styles.imgDiv}>
         <img
-          style={{ marginTop: "30%", marginLeft: "15%", width: "100%" }}
           src={`${obj.namePic}`}
           alt=""
         />
 
         <h3
-          style={{
-            color: "#fff",
-            fontWeight: "400",
-            lineHeight: "normal",
-            width: "100%",
-            fontSize: "1.4vw",
-            textShadow: "2px 2px 4px rgb(0 0 0 / 45%)",
-            marginLeft: "15%",
-          }}
+          className={styles.bannerHeading3}
         >
           {obj.description}
         </h3>
         <div
-          style={{
-            marginTop: "1.5vw",
-            whiteSpace: "nowrap",
-            display: "flex",
-            columnGap: "1rem",
-            lineHeight: "88%",
-            marginLeft: "15%",
-          }}
+          className={styles.buttonDiv}
         >
           <button
             onClick={() => navigate("/player")}
-            style={{
-              backgroundColor: "rgba(255,255,255,0.75)",
-              paddingLeft: "1rem",
-              paddingRight: "1rem",
-              paddingTop: "4px",
-              width: "35%",
-              paddingBottom: "4px",
-              border: "none",
-              borderRadius: "3px",
-              fontSize: "22px",
-              fontWeight: "550",
-            }}
-          >
+            className={styles.playButton}>
+
             {" "}
             <div>
-              <PlayCircleFilledIcon sx={{ fontSize: "22px" }} />{" "}
-              <span style={{ marginTop: "-2em" }}>Play</span>
-            </div>
-          </button>
-          <button
-            style={{
-              backgroundColor: "rgba(109,109,110,0.7)",
-              color: "white",
-              fontSize: "22px",
-              paddingRight: "1rem",
-              paddingLeft: "1rem",
-              border: "0px",
-
-              width: "35%",
-              borderRadius: "2px",
-            }}
-          >
-            More Info
-          </button>
-        </div>
+            <PlayCircleFilledIcon sx={{ fontSize: "22px" }} />{" "}
+            <span style={{ marginTop: "-2em" }}>Play</span>
+          </div>
+        </button>
+        <button className={styles.moreButton}
+        >
+          More Info
+        </button>
       </div>
     </div>
+    </div >
   );
 };
