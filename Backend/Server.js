@@ -2,7 +2,6 @@ const express = require("express")
 const cors = require("cors")
 const mongoose = require("mongoose")
 require("dotenv").config()
-const PORT = 8000
 
 const BannerMoController = require("./Controllers/BannerMo.Controller")
 const BannerTvController = require("./Controllers/BannerTv.Controller")
@@ -30,6 +29,6 @@ mongoose.connection.on("error", function (err) {
     console.log("Could not connect to mongo server!");
 });
 
-app.listen(PORT, () => {
-    console.log(`Listenting at ${PORT}`)
+app.listen(process.env.PORT, () => {
+    console.log(`Listenting at ${process.env.PORT}`)
 })
