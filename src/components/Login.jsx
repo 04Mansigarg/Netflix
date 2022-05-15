@@ -71,7 +71,7 @@ const Login = () => {
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png" alt="" />
         </div>
         <div className={styles.loginbox}>
-          <form action="" onSubmit={handleSubmit}>
+          <form action="post" onSubmit={handleSubmit}>
             <h1>Sign In</h1>
             <input className={styles.loginbox_input} type="email" placeholder="Email or phone number" name="email" value={formData.email} onChange={handleChange} />
             <input className={styles.loginbox_input} type="password" placeholder="Password" name="password" value={formData.password} onChange={handleChange} />
