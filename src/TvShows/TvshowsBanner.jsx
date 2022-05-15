@@ -34,7 +34,7 @@ export const TvshowsBanner = () => {
   React.useEffect(() => {
     let id = 2;
     setInterval(() => {
-      fetch(`http://localhost:8000/bannertvshows/${id}`)
+      fetch(`https://netflix-dbclone.herokuapp.com/bannertvshows/${id}`)
         .then((res) => res.json())
         .then((res) => setObj(res))
         .catch((err) => console.log(err));

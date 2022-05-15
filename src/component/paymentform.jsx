@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
-import Header from "./Header";
 import styles from "../component/Style/form.module.css";
 import { FooterComp } from "../components/FooterComp";
 import { useDispatch, useSelector } from "react-redux";
@@ -51,7 +50,7 @@ export const Paymentform = () => {
     }
     dispatch(get_signin_loading(true));
     dispatch(get_signin_error(false));
-    fetch("http://localhost:8000/users/register", {
+    fetch("https://netflix-dbclone.herokuapp.com/users/register", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: { "content-type": "application/json" },

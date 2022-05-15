@@ -19,7 +19,7 @@ export const Item = () => {
     console.log(mainItem)
     React.useEffect(() => {
         dispatch(get_loading())
-        fetch(`http://localhost:8000/${endItem}?category=${mainItem}`)
+        fetch(`https://netflix-dbclone.herokuapp.com/${endItem}?category=${mainItem}`)
             .then((res) => res.json())
             .then((res) => setData(res))
             .catch((err) => {console.log(err)

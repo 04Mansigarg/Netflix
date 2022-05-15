@@ -36,7 +36,7 @@ const Login = () => {
     dispatch(get_signin_loading(true))
     dispatch(get_signin_error(false))
 
-    fetch("http://localhost:8000/users/login", {
+    fetch("https://netflix-dbclone.herokuapp.com/users/login", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: { "content-type": "application/json" }

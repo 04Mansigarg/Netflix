@@ -14,7 +14,7 @@ export const IndianTvShows = () => {
     }))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:8000/tvshows?category=Indian")
+        fetch("https://netflix-dbclone.herokuapp.com/tvshows?category=Indian")
             .then((res) => res.json())
             .then((res) => dispatch(get_indian_tvshows(res)))
             .catch((err) => {

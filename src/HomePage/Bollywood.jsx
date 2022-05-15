@@ -15,7 +15,7 @@ export const Bollywood = () => {
     const dispatch = useDispatch()
     React.useEffect(() => {
         dispatch(get_loading())
-        fetch("http://localhost:8000/movies?category=Bollywood")
+        fetch("https://netflix-dbclone.herokuapp.com/movies?category=Bollywood")
             .then((res) => res.json())
             .then((res) => dispatch(get_bollywood(res)))
             .catch((err) => {
