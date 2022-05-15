@@ -14,7 +14,7 @@ export const HorrorTvShows = () => {
     const dispatch = useDispatch()
     React.useEffect(() => {
         dispatch(get_loading())
-        fetch("http://localhost:8000/tvshows?category=Horror")
+        fetch("https://netflix-dbclone.herokuapp.com/tvshows?category=Horror")
             .then((res) => res.json())
             .then((res) => dispatch(get_horror_tvshows(res)))
             .catch((err) => {

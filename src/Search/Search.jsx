@@ -20,7 +20,7 @@ export const Search = () => {
     const getdata = () => {
         dispatch(get_loading())
         if (q === "Indian" || q === "Romance" || q === "Horror" || q === "Docuseries") {
-            fetch(`http://localhost:8000/tvshows?category=${q}`)
+            fetch(`https://netflix-dbclone.herokuapp.com/tvshows?category=${q}`)
                 .then(res => res.json())
                 .then((res) => dispatch(search_data(res)))
                 .catch((err) => {
@@ -29,7 +29,7 @@ export const Search = () => {
                 })
         }
         else if (q === "Anime" || q === "Bollywood" || q === "Hollywood" || q === "AwardWinning") {
-            fetch(`http://localhost:8000/movies?category=${q}`)
+            fetch(`https://netflix-dbclone.herokuapp.com/movies?category=${q}`)
                 .then(res => res.json())
                 .then((res) => dispatch(search_data(res)))
                 .catch((err) => {

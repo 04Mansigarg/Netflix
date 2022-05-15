@@ -11,7 +11,7 @@ export const AllTvShows = () => {
     }))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:8000/tvshows")
+        fetch("https://netflix-dbclone.herokuapp.com/tvshows")
             .then((res) => res.json())
             .then((res) => dispatch(get_tvshows(res)))
             .catch((err) => {
