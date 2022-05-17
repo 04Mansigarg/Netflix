@@ -15,7 +15,7 @@ export const AwardWinning = () => {
     const dispatch = useDispatch()
     React.useEffect(() => {
         dispatch(get_loading())
-        fetch("http://localhost:8000/movies?category=AwardWinning")
+        fetch("https://netflix-dbclone.herokuapp.com/movies?category=AwardWinning")
             .then((res) => res.json())
             .then((res) => dispatch(get_awardwinning(res)))
             .catch((err) => {

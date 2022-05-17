@@ -14,7 +14,7 @@ export const AllMovies = () => {
     }))
     const dispatch = useDispatch()
     React.useEffect(() => {
-        fetch("http://localhost:8000/movies")
+        fetch("https://netflix-dbclone.herokuapp.com/movies")
             .then((res) => res.json())
             .then((res) => dispatch(get_movies(res)))
             .catch((err) => {
