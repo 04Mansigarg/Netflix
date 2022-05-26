@@ -37,7 +37,7 @@ const Login = () => {
     dispatch(get_signin_loading(true))
     dispatch(get_signin_error(false))
 
-    fetch("https://netflix-dbclone.herokuapp.com/users/login", {
+    fetch("https://netflix-dbclone.herokuapp.com/login", {
       method: "POST",
       body: JSON.stringify(formData),
       headers: { "content-type": "application/json" }
@@ -111,3 +111,4 @@ const Login = () => {
 
 
 export default Login;
+

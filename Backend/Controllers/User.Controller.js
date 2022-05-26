@@ -4,14 +4,14 @@ const UserModel = require("../Models/User.Schema")
 
 const jwt = require('jsonwebtoken');
 
-const newToken = (user)=>{
-   return jwt.sign({ user }, process.env.JWT_SECRET_KEY);
+const newToken = (user) => {
+    return jwt.sign({ user }, process.env.JWT_SECRET_KEY);
 }
- 
+
 
 
 router.post("/register", async (req, res, next) => {
-   
+
     try {
         let user = await UserModel.findOne({ email: req.body.email })
 
@@ -25,13 +25,12 @@ router.post("/register", async (req, res, next) => {
 
     }
     catch (e) {
-     return res.status(500).json({status:"failed",message:e.message})
+        return res.status(500).json({ status: "failed", message: e.message })
     }
 })
-router.post("/login",async(req,res)=>{
+router.post("/login", async (req, res) => {
     try {
         let user = await UserModel.findOne({ email: req.body.email })
-
         if (!user) {
             return res.status(401).json("email and password is incorrect")
         }
@@ -45,7 +44,7 @@ router.post("/login",async(req,res)=>{
 
     }
     catch (e) {
-     return res.status(500).json({status:"failed",message:e.message})
+        return res.status(500).json({ status: "failed", message: e.message })
     }
 })
-module.exports=router
+module.exports = router

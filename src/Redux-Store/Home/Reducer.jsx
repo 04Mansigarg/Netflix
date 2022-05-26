@@ -7,7 +7,7 @@ const getValue = (key) => {
         const parsedValue = JSON.parse(value)
         return parsedValue
     }
-    catch(e) {
+    catch (e) {
         return e.message
     }
 }
@@ -30,7 +30,7 @@ const init = {
     password: "",
     userData: [],
     auth: {
-        isUserLoggedIn: getValue("token")? true : false,
+        isUserLoggedIn: getValue("token") ? true : false,
         token: getValue("token")
     },
     mainItem: "",
@@ -161,7 +161,7 @@ export const reducer = (state = init, { type, payload }) => {
                 auth: {
                     ...state.auth,
                     isUserLoggedIn: false,
-                    token: ""
+                    token: payload
 
                 }
             }
