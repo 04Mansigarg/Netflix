@@ -12,7 +12,7 @@ import { TvShows } from "./TvShows/TvShows";
 import { Movies } from "./Movies/Movies";
 import Player from "./components/Player";
 import { ItemComponent } from "./component/ItemComponent";
-// import { Search } from "./Search/Search";
+
 import { SearchComponent } from "./Search/SearchComponent";
 import { PrivateRoutes } from "./PrivateRoutes";
 import { ErrorPage } from "./Search/ErrorPage";
@@ -26,7 +26,7 @@ export const Routers = () => {
       navigate("/homepage")
     }
     else {
-      navigate("/login")
+      navigate("/")
     }
   }, [isUserLoggedIn])
   return (
