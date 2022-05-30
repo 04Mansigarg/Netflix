@@ -20,7 +20,7 @@ app.use("/tvshows", tvShowsController)
 app.use("/movies", moviesController)
 app.use("/users",userController)
 
-mongoose.connect('mongodb+srv://mansigarg:1234554321@cluster0.0sg5t.mongodb.net/Netflix?retryWrites=true&w=majority')
+mongoose.connect(process.env.URL)
 mongoose.connection.once("open", function (ref) {
     console.log("Connected to mongo server.");
 });
