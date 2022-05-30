@@ -20,7 +20,7 @@ app.use("/tvshows", tvShowsController)
 app.use("/movies", moviesController)
 app.use("/users",userController)
 
-mongoose.connect(process.env.URL)
+mongoose.connect(`${process.env.URL}`)
 mongoose.connection.once("open", function (ref) {
     console.log("Connected to mongo server.");
 });
